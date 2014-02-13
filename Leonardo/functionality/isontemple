@@ -1,0 +1,10 @@
+{
+	"name": "isontemple",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": null,
+			"description": "Returns true if you are located inside a temple, false otherwise."
+		}
+	]
+}
