@@ -1,0 +1,37 @@
+{
+	"name": "withdrawitems",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "maincont"
+				},
+				{
+					"type": "optional string",
+					"name": "seccont"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², ..., item*",
+				}
+			],
+			"description": "Withdraw items from the <i>maincont</i> to the <i>seccont</i>. Returns true if successful, false otherwise."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "maincont"
+				},
+				{
+					"type": "table",
+					"name": "item¹, item², ..., item*",
+				}
+			],
+			"description": "Withdraw items from the <i>maincont</i> to the backpack given on each item parameter. Returns true if successful, false otherwise."
+		}
+	]
+}
