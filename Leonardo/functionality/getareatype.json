@@ -1,0 +1,15 @@
+{
+	"name": "getareatype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "areaname"
+				}
+			],
+			"description": "Returns the name of the type of a special area."
+		}
+	]
+}
