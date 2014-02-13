@@ -2,30 +2,30 @@
 	"name": "getdistancebetween",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "x"
 				},
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "y"
 				},
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "z"
 				},
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "a"
 				},
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "b"
 				},
 				{
-					"type": "integer",
+					"type": "number",
 					"name": "c"
 				}
 			],
@@ -34,7 +34,7 @@
 			"exDescription": "Will go to the label 'Trapped' if the distance between coordinates is more or equal to 10."
 		},
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
 					"type": "table",
@@ -50,7 +50,7 @@
 			"exDescription": "Will go to the label 'Trapped' if the distance between coordinates is more or equal to 10."
 		},
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
 					"type": "table",
