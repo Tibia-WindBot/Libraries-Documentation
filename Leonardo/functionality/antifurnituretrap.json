@@ -2,7 +2,7 @@
 	"name": "antifurnituretrap",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "optional string",
