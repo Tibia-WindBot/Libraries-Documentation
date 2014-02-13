@@ -9,9 +9,7 @@
 					"name": "areaname"
 				}
 			],
-			"description": "Returns the policy of a special area.",
-			"ex": "print(getpolicy('SpecialArea'))",
-			"exDescription": "Will print out the special area policy name."
+			"description": "Returns the policy of a special area."
 		}
 	]
 }
