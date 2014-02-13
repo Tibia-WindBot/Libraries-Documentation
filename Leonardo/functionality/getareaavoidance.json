@@ -2,16 +2,14 @@
 	"name": "getareaavoidance",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
 					"type": "string",
 					"name": "areaname"
 				}
 			],
-			"description": "Returns the avoidance level of a special area.",
-			"ex": "print(getareaavoidance('NewSpecialArea'))",
-			"exDescription": "Will print out the avoidance level for the special area 'NewSpecialArea'."
+			"description": "Returns the avoidance level of a special area."
 		}
 	]
 }
