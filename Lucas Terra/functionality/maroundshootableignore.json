@@ -1,0 +1,21 @@
+{
+	"name": "maroundshootableignore",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "dist"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Returns the amount of monsters reachable around you, except those found in list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

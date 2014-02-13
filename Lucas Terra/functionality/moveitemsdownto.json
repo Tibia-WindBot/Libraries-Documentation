@@ -1,0 +1,29 @@
+{
+	"name": "moveitemsdownto",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				},
+				{
+					"type": "various",
+					"name": "amount"
+				},
+				{
+					"type": "various",
+					"name": "to"
+				},
+				{
+					"type": "various",
+					"name": "from"
+				}
+			],
+			"description": "Move items necessary let the amount on the given backpack.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

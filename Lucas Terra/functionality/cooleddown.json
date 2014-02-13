@@ -1,0 +1,15 @@
+{
+	"name": "cooleddown",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "spell"
+				}
+			],
+			"description": "Returns true if you are cooled down from the spell cast period, fales otherwise."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "fish",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				}
+			],
+			"description": "Uses fishing rod on the fishable tiles in range."
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "balance",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Returns the amount of the last balance received from a bank NPC."
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "comparetables",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl¹"
+				},
+				{
+					"type": "table",
+					"name": "tbl²"
+				}
+			],
+			"description": "Compares the values of each table, if they are equal each other returns true, false otherwise."
+		}
+	]
+}

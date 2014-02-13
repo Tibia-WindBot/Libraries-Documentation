@@ -1,0 +1,23 @@
+{
+	"name": "closebpcolor",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "various",
+					"name": "bp"
+				},
+				{
+					"type": "number",
+					"name": "start"
+				},
+				{
+					"type": "number",
+					"name": "end"
+				}
+			],
+			"description": "Closes the backpacks with the color given, from the index start to the index end."
+		}
+	]
+}

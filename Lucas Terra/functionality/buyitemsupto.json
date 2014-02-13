@@ -1,0 +1,23 @@
+{
+	"name": "buyitemsupto",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "item"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "optional number",
+					"name": "current"
+				}
+			],
+			"description": "Buy items necessary to fill up to the amount given."
+		}
+	]
+}

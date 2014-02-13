@@ -1,0 +1,15 @@
+{
+	"name": "fishspots",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				}
+			],
+			"description": "Returns the amount of fishable spots found in range."
+		}
+	]
+}

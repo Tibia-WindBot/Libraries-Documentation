@@ -1,0 +1,21 @@
+{
+	"name": "itemproperties",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				},
+				{
+					"type": "various",
+					"name": "property�,"
+				}
+			],
+			"description": "Checks if all the properties given append to the item given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

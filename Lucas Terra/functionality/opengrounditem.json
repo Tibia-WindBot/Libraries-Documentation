@@ -1,0 +1,17 @@
+{
+	"name": "opengrounditem",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				}
+			],
+			"description": "Reaches and opens the item on the ground it has been found.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

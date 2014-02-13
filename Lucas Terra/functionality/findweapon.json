@@ -1,0 +1,10 @@
+{
+	"name": "findweapon",
+	"invocations": [
+		{
+			"rettype": "string, number",
+			"args": [],
+			"description": "Returns where your weapon is located and the item ID."
+		}
+	]
+}

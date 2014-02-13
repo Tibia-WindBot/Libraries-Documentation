@@ -1,0 +1,17 @@
+{
+	"name": "ispk",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "cre"
+				}
+			],
+			"description": "Returns true if the creature given is a player killer.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "foodcount",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [],
+			"description": "Returns the amount of food found in the opened backpacks."
+		}
+	]
+}

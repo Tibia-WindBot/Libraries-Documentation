@@ -1,0 +1,19 @@
+{
+	"name": "eatfoodfull",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "location"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Eats full until is full."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "timebetween",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "time1"
+				},
+				{
+					"type": "various",
+					"name": "time2"
+				},
+				{
+					"type": "various",
+					"name": "delay"
+				}
+			],
+			"description": "Returns true if the time given is between second time and delay.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

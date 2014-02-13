@@ -1,0 +1,29 @@
+{
+	"name": "usesewer",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				},
+				{
+					"type": "various",
+					"name": "sewers"
+				}
+			],
+			"description": "Uses sewer gate on the given coordinates, until you have entered.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

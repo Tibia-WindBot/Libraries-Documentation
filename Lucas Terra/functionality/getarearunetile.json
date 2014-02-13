@@ -1,0 +1,21 @@
+{
+	"name": "getarearunetile",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "various",
+					"name": "ignoreplayers"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Returns the best ground position to shoot an area rune.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

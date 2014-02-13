@@ -1,0 +1,15 @@
+{
+	"name": "enchantspear",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "hand"
+				}
+			],
+			"description": "Enchants the spear on your hand."
+		}
+	]
+}

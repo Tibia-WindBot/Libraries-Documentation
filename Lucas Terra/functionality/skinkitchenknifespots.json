@@ -1,0 +1,25 @@
+{
+	"name": "skinkitchenknifespots",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "range"
+				},
+				{
+					"type": "various",
+					"name": "body"
+				},
+				{
+					"type": "various",
+					"name": "fresh"
+				}
+			],
+			"description": "Returns the amount of body spots found in the range given that can be harvested using kitchen knife.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

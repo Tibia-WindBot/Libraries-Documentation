@@ -1,0 +1,25 @@
+{
+	"name": "wheretomoveitemtable",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				}
+			],
+			"description": "Creates possible destinations to move the item on the coordinates given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

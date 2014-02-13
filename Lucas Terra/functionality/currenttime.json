@@ -1,0 +1,10 @@
+{
+	"name": "currenttime",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [],
+			"description": "Returns the current time formatted as HH:MM:SS."
+		}
+	]
+}

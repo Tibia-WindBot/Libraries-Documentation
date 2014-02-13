@@ -1,0 +1,19 @@
+{
+	"name": "copycontainer",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "container",
+					"name": "cont¹"
+				},
+				{
+					"type": "optional container",
+					"name": "cont²"
+				}
+			],
+			"description": "Copy all the container properties to another and returns cont²."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "removefromsafelist",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "various",
+					"name": "type"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Removes players to the safe list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

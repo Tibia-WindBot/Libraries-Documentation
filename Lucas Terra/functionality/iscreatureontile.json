@@ -1,0 +1,29 @@
+{
+	"name": "iscreatureontile",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				},
+				{
+					"type": "various",
+					"name": "type"
+				}
+			],
+			"description": "Returns true if there's a creature on the coordinates given, false otherwise.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

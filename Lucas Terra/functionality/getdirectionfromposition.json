@@ -1,0 +1,25 @@
+{
+	"name": "getdirectionfromposition",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "various",
+					"name": "pos"
+				},
+				{
+					"type": "various",
+					"name": "direction"
+				},
+				{
+					"type": "various",
+					"name": "range"
+				}
+			],
+			"description": "Gets the position for the direction given in the distance range.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "bestelementweapon",
+	"invocations": [
+		{
+			"rettype": "number, string",
+			"args": [
+				{
+					"type": "creature",
+					"name": "cre"
+				}
+			],
+			"description": "Returns the best element weapon for the creature given."
+		}
+	]
+}

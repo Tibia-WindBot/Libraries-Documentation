@@ -1,0 +1,19 @@
+{
+	"name": "buyitemstocap",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "item"
+				},
+				{
+					"type": "number",
+					"name": "capacity"
+				}
+			],
+			"description": "Buy items until the capacity given is met."
+		}
+	]
+}

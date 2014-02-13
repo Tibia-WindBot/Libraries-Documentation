@@ -1,0 +1,17 @@
+{
+	"name": "islocation",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "range"
+				}
+			],
+			"description": "Returns true if you are inside the range given in comparison to the waypoint coordinates, false otherwise.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

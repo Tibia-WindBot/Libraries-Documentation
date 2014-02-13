@@ -1,0 +1,19 @@
+{
+	"name": "dropitems",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "pos"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Drops items on the ground."
+		}
+	]
+}

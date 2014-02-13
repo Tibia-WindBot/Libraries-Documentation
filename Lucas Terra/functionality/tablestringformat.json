@@ -1,0 +1,25 @@
+{
+	"name": "table.stringformat",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "various",
+					"name": "self"
+				},
+				{
+					"type": "various",
+					"name": "name"
+				},
+				{
+					"type": "various",
+					"name": "sep"
+				}
+			],
+			"description": "Returns a string formatted as the table given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

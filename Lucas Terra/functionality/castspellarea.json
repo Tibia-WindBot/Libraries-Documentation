@@ -1,0 +1,27 @@
+{
+	"name": "castspellarea",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "boolean",
+					"name": "ignore"
+				},
+				{
+					"type": "string",
+					"name": "name¹, name², name*, ..."
+				}
+			],
+			"description": "Casts an area spell if the if the amount of creatures are found in the range of spell without hitting players."
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "collechiddentitems",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "number",
+					"name": "range"
+				},
+				{
+					"type": "various",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Collect all items around your character found in the list on the range."
+		}
+	]
+}

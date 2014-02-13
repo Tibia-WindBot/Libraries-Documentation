@@ -1,0 +1,21 @@
+{
+	"name": "tobin",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "various",
+					"name": "num"
+				},
+				{
+					"type": "various",
+					"name": "reverse"
+				}
+			],
+			"description": "Converts a number into a binary string.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

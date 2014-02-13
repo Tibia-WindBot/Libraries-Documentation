@@ -1,0 +1,35 @@
+{
+	"name": "areitemsontile",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				},
+				{
+					"type": "various",
+					"name": "cap"
+				},
+				{
+					"type": "boolean",
+					"name": "move"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Returns true if the items are on the coordinates given. Cap can be true or the weight of the item to consider. Optionally you can add the move parameter to consider only moveable items.",
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "findcreatureonspellrange",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				},
+				{
+					"type": "string",
+					"name": "iteratetype"
+				}
+			],
+			"description": "Returns the creature object found on the spell range."
+		}
+	]
+}

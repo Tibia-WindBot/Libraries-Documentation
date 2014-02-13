@@ -1,0 +1,21 @@
+{
+	"name": "totalitems",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "location"
+				},
+				{
+					"type": "various",
+					"name": "item�,"
+				}
+			],
+			"description": "Returns the amount of items on the location found in list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

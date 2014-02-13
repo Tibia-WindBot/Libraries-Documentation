@@ -1,0 +1,27 @@
+{
+	"name": "fishinice",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				},
+				{
+					"type": "number",
+					"name": "pickid"
+				}
+			],
+			"description": "Fishes on ice spots."
+		}
+	]
+}

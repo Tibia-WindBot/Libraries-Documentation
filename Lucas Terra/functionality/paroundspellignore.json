@@ -1,0 +1,25 @@
+{
+	"name": "paroundspellignore",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "various",
+					"name": "direction"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Returns the amount of players found in the spell range, excluding the ones listed.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

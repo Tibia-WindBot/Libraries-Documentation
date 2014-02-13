@@ -1,0 +1,33 @@
+{
+	"name": "massheal",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "hppc"
+				},
+				{
+					"type": "various",
+					"name": "amount"
+				},
+				{
+					"type": "various",
+					"name": "considerenemy"
+				},
+				{
+					"type": "various",
+					"name": "enemylist"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Uses mass heal spell to heal the amount of players found in list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

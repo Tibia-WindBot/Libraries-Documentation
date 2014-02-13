@@ -1,0 +1,10 @@
+{
+	"name": "findweapontype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [],
+			"description": "Returns your weapon type name."
+		}
+	]
+}

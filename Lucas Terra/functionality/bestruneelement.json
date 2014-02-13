@@ -1,0 +1,19 @@
+{
+	"name": "bestruneelement",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "creature",
+					"name": "cre"
+				},
+				{
+					"type": "boolean",
+					"name": "disconsider"
+				}
+			],
+			"description": "Returns the best rune element for the creature given."
+		}
+	]
+}

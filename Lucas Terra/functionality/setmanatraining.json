@@ -1,0 +1,17 @@
+{
+	"name": "setmanatraining",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "various",
+					"name": "type"
+				}
+			],
+			"description": "Toggle the mana training engine.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

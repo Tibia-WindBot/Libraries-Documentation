@@ -1,0 +1,21 @@
+{
+	"name": "wheretoturn",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "various",
+					"name": "creature"
+				},
+				{
+					"type": "various",
+					"name": "spell"
+				}
+			],
+			"description": "Returns the best direction to turn for the spell, to shoot the creature.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

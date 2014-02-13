@@ -1,0 +1,25 @@
+{
+	"name": "tilewalkable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				}
+			],
+			"description": "Returns true if the tile with coordinates given is walkable, false otherwise.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

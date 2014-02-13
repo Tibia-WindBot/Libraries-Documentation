@@ -1,0 +1,19 @@
+{
+	"name": "findplayeronspellrange",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				}
+			],
+			"description": "Returns the player object found on the spell range."
+		}
+	]
+}

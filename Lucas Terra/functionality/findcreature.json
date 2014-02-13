@@ -1,0 +1,17 @@
+{
+	"name": "findcreature",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "various",
+					"name": "creature¹, creature², creature*, ..."
+				}
+			],
+			"description": "Returns the creature object for the given name(s) or ID(s).",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

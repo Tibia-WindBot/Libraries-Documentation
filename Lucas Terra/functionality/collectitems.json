@@ -1,0 +1,19 @@
+{
+	"name": "collectitems",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "bpname"
+				},
+				{
+					"type": "various",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Collect all items around your character found in the list."
+		}
+	]
+}

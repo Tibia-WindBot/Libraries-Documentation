@@ -1,0 +1,27 @@
+{
+	"name": "color",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "r"
+				},
+				{
+					"type": "number",
+					"name": "g"
+				},
+				{
+					"type": "number",
+					"name": "b"
+				},
+				{
+					"type": "number",
+					"name": "transparency"
+				}
+			],
+			"description": "Returns the ARGB color number for HUD functions."
+		}
+	]
+}

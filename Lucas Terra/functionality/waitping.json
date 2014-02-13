@@ -1,0 +1,21 @@
+{
+	"name": "waitping",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "various",
+					"name": "a"
+				},
+				{
+					"type": "various",
+					"name": "b"
+				}
+			],
+			"description": "Set the delay of the script between last ping average multiplied by the values given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

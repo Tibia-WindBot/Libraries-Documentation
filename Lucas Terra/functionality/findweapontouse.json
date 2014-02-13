@@ -1,0 +1,10 @@
+{
+	"name": "findweapontouse",
+	"invocations": [
+		{
+			"rettype": "string, number",
+			"args": [],
+			"description": "Searches for any melee weapon and where its located."
+		}
+	]
+}

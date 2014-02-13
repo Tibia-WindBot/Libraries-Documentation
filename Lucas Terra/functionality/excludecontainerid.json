@@ -1,0 +1,15 @@
+{
+	"name": "excludecontainerid",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "bp"
+				}
+			],
+			"description": "Excludes the container index of the string sentence '0-15'."
+		}
+	]
+}

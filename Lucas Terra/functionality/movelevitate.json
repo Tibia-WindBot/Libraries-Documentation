@@ -1,0 +1,17 @@
+{
+	"name": "movelevitate",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "direction"
+				}
+			],
+			"description": "Moves and levitate on the direction given, if possible, it'll move on parcels or any height item, otherwise it'll cast spell.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

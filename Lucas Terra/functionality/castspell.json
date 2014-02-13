@@ -1,0 +1,19 @@
+{
+	"name": "castspell",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "optional creature",
+					"name": "cre"
+				}
+			],
+			"description": "Casts the spell on the creature given or as a normal spell."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "getdirpos",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "various",
+					"name": "direction"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				}
+			],
+			"description": "Gets the adjacent position for the direction given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

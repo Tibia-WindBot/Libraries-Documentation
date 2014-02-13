@@ -1,0 +1,19 @@
+{
+	"name": "comparecontainer",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "container",
+					"name": "cont1"
+				},
+				{
+					"type": "container",
+					"name": "cont2"
+				}
+			],
+			"description": "Compare and returns true if the given containers are equal each other, false otherwise."
+		}
+	]
+}

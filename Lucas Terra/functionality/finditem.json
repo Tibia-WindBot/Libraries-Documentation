@@ -1,0 +1,19 @@
+{
+	"name": "finditem",
+	"invocations": [
+		{
+			"rettype": "string, integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "item"
+				},
+				{
+					"type": "string",
+					"name": "cont"
+				}
+			],
+			"description": "Searches for the slot and id of the item or container which hold it."
+		}
+	]
+}

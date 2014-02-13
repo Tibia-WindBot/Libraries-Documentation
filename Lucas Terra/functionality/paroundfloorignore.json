@@ -1,0 +1,25 @@
+{
+	"name": "paroundfloorignore",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "range"
+				},
+				{
+					"type": "various",
+					"name": "floor"
+				},
+				{
+					"type": "various",
+					"name": "creature�,"
+				}
+			],
+			"description": "Returns the amount of players on the floor difference and range except those found list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

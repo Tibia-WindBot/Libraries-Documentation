@@ -1,0 +1,29 @@
+{
+	"name": "shootbestrune",
+	"invocations": [
+		{
+			"rettype": "true",
+			"args": [
+				{
+					"type": "various",
+					"name": "a"
+				},
+				{
+					"type": "various",
+					"name": "b"
+				},
+				{
+					"type": "various",
+					"name": "cre"
+				},
+				{
+					"type": "various",
+					"name": "disconsider"
+				}
+			],
+			"description": "Shoots the best rune against the creature given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

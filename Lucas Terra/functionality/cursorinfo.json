@@ -1,0 +1,10 @@
+{
+	"name": "cursorinfo",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [],
+			"description": "Returns information about the tile below your mouse position."
+		}
+	]
+}

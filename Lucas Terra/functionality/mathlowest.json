@@ -1,0 +1,21 @@
+{
+	"name": "math.lowest",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "various",
+					"name": "self"
+				},
+				{
+					"type": "various",
+					"name": "num"
+				}
+			],
+			"description": "Returns the minimum value between the given numbers.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

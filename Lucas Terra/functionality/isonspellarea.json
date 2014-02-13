@@ -1,0 +1,33 @@
+{
+	"name": "isonspellarea",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "cre"
+				},
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "various",
+					"name": "direction"
+				},
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				}
+			],
+			"description": "Returns true if the creature is inside spell area, false otherwise.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

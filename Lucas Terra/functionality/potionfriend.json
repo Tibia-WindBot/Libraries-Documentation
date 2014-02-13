@@ -1,0 +1,29 @@
+{
+	"name": "potionfriend",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "id"
+				},
+				{
+					"type": "various",
+					"name": "hppc"
+				},
+				{
+					"type": "various",
+					"name": "dist"
+				},
+				{
+					"type": "various",
+					"name": "name�,"
+				}
+			],
+			"description": "Uses heal potions on the friends found in range and list.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

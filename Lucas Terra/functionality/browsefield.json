@@ -1,0 +1,23 @@
+{
+	"name": "browsefield",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				}
+			],
+			"description": "Opens the browse field on the coordinates given.",
+		}
+	]
+}

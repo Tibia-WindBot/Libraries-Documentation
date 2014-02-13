@@ -1,0 +1,25 @@
+{
+	"name": "isposition",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "x"
+				},
+				{
+					"type": "various",
+					"name": "y"
+				},
+				{
+					"type": "various",
+					"name": "z"
+				}
+			],
+			"description": "Returns true if you are standing in the exactly coordinates as given.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

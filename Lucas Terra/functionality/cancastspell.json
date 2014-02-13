@@ -1,0 +1,19 @@
+{
+	"name": "cancastspell",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "various",
+					"name": "spell"
+				},
+				{
+					"type": "optional creature",
+					"name": "cre"
+				}
+			],
+			"description": "Returns true if you met the requirements to cast spell, false otherwise."
+		}
+	]
+}

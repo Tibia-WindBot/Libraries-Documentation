@@ -1,0 +1,12 @@
+{
+	"name": "refillammo",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [],
+			"description": "Refills ammunition to your weapon or ammo slot.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

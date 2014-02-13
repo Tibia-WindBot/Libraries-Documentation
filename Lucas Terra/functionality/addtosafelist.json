@@ -1,0 +1,19 @@
+{
+	"name": "addtosafelist",
+	"invocations": [
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "alarmtype"
+				},
+				{
+					"type": "string",
+					"name": "name¹, name², name*, ..."
+				}
+			],
+			"description": "Adds players to the safe list. As alarm type you can set any alarm name found on the alarms engine of the bot."
+		}
+	]
+}

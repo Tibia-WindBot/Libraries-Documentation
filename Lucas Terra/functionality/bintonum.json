@@ -1,0 +1,15 @@
+{
+	"name": "bintonum",
+	"invocations": [
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "string",
+					"name": "binary"
+				}
+			],
+			"description": "Converts a binary formatted number to a number."
+		}
+	]
+}

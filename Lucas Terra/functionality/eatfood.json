@@ -1,0 +1,19 @@
+{
+	"name": "eatfood",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "location"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Eats food."
+		}
+	]
+}
