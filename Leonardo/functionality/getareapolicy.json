@@ -2,20 +2,16 @@
 	"name": "getareapolicy",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": "string",
 			"args": [
 				{
 					"type": "string",
-					"name": "name"
-				},
-				{
-					"type": "string",
-					"name": "policy"
+					"name": "areaname"
 				}
 			],
-			"description": "Sets the policy for a special area.",
-			"ex": "setpolicy('SpecialArea', 'Cavebot & Targeting')",
-			"exDescription": "Set the special area policy to 'Cavebot & Targeting'."
+			"description": "Returns the policy of a special area.",
+			"ex": "print(getpolicy('SpecialArea'))",
+			"exDescription": "Will print out the special area policy name."
 		}
 	]
 }
