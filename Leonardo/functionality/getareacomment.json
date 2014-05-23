@@ -9,7 +9,7 @@
                                         "name": "areaname"
                                 }
                         ],
-                        "description": "Gets the commentary of a special area."
+                        "description": "Returns the commentary of a special area."
                 }
         ]
 }
