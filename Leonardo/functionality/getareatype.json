@@ -9,7 +9,9 @@
 					"name": "areaname"
 				}
 			],
-			"description": "Returns the name of the type of a special area."
+			"description": "Returns the name of the type of a special area.",
+			"ex": "if getareatype('SpecialArea1') == AREA_SQUARE_FILLED then\n\tsetareatype('SpecialArea1', AREA_SQUARE_BORDER)\nend",
+			"exDescription": "It'll change the 'SpecialArea1' type from 'Square (Filled)' to 'Square (Border Only)'."
 		}
 	]
 }
