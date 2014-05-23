@@ -13,7 +13,9 @@
                                         "name": "policytype"
                                 }
                         ],
-                        "description": "Returns true if the special area extra policy given is enabled, false otherwise."
+                        "description": "Returns true if the special area extra policy given is enabled, false otherwise.",
+                        "ex": "if not getareaextrapolicy('SpecialArea1', 'lure') then\n\tsetareaextrapolicy('SpecialArea1', 'lure', true)\nend",
+			"exDescription": "It'll enable 'SpecialArea1' extra policy 'IgnoreWhenLuring' if it was not enabled."
                 }
         ]
 }
