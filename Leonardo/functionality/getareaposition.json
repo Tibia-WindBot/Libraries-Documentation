@@ -9,7 +9,9 @@
 					"name": "areaname"
 				}
 			],
-			"description": "Returns the coordinates of the given special area."
+			"description": "Returns the coordinates of the given special area.",
+			"ex": "local pos = getareaposition('SpecialArea1')\n\nif pos.x == 33333 and pos.y == 44444 and pos.z == 5 then\n\tsetareaposition('SpecialArea1', 66666, 77777, 8)\nend",
+			"exDescription": "It'll change the 'SpecialArea1' position coordinates from 33333:44444:5 to 66666:77777:8."
 		}
 	]
 }
