@@ -4,7 +4,9 @@
 		{
 			"rettype": "boolean",
 			"args": null,
-			"description": "Returns true if you are located inside a temple, false otherwise."
+			"description": "Returns true if you are located inside a temple, false otherwise.",
+			"ex": "auto(1000, 2000)\nif isontemple() then\n\tclosebot()\nend",
+			"exDescription": "It'll close bot if you are inside a temple."
 		}
 	]
 }
