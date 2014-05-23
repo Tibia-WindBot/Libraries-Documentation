@@ -10,8 +10,8 @@
                                 }
                         ],
                         "description": "Returns the commentary of a special area.",
-                        "ex": "auto(100, 200)\nlocal areaComment = getareacomment(\"SpecialArea1\")\nlistas(areaComment)",
-			"exDescription": "It'll set the persistent script name as the \"SpecialArea1\" commentary."
+                        "ex": "auto(100, 200)\nlocal areaComment = getareacomment('SpecialArea1')\nlistas(areaComment)",
+			"exDescription": "It'll set the persistent script name as the 'SpecialArea1' commentary."
                 }
         ]
 }
