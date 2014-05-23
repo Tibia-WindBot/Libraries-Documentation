@@ -10,8 +10,8 @@
 				}
 			],
 			"description": "Returns the avoidance level of a special area.",
-			"ex": "local areaAvoidance = getareaavoidance(\"SpecialArea1\")\n\nif areaAvoidance <= 50 then\n\tsetareaavoidance(\"SpecialArea1\", 150)\nend",
-			"exDescription": "It'll set the \"SpecialArea1\" avoidance level to 150 if it was lower than 50."
+			"ex": "local areaAvoidance = getareaavoidance('SpecialArea1')\n\nif areaAvoidance <= 50 then\n\tsetareaavoidance('SpecialArea1', 150)\nend",
+			"exDescription": "It'll set the 'SpecialArea1' avoidance level to 150 if it was lower than 50."
 		}
 	]
 }
