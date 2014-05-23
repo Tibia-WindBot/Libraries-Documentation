@@ -6,42 +6,28 @@
 			"args": [
 				{
 					"type": "number",
-					"name": "x"
+					"name": "x1"
 				},
 				{
 					"type": "number",
-					"name": "y"
+					"name": "y1"
 				},
 				{
 					"type": "number",
-					"name": "z"
+					"name": "z1"
 				},
 				{
 					"type": "number",
-					"name": "a"
+					"name": "x2"
 				},
 				{
 					"type": "number",
-					"name": "b"
+					"name": "y2"
 				},
 				{
 					"type": "number",
-					"name": "c"
+					"name": "z2"
 				}
-			],
-			"description": "Returns the distance between positions given or -1 if it's not located on the same floor."
-		},
-		{
-			"rettype": "number",
-			"args": [
-				{
-					"type": "table",
-					"name": "coords1"
-				},
-				{
-					"type": "table",
-					"name": "coords2"
-				},
 			],
 			"description": "Returns the distance between positions given or -1 if it's not located on the same floor."
 		},
