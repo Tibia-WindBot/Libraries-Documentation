@@ -9,7 +9,9 @@
                                         "name": "areaname"
                                 }
                         ],
-                        "description": "Returns the commentary of a special area."
+                        "description": "Returns the commentary of a special area.",
+                        "ex": "auto(100, 200)\nlocal areaComment = getareacomment(\"SpecialArea1\")\nlistas(areaComment)",
+			"exDescription": "It'll set the persistent script name to the \"SpecialArea1\" comment."
                 }
         ]
 }
