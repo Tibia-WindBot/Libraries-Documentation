@@ -6,18 +6,18 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "width"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "height"
 				}
 			],
-			"description": "Sets the width and height for a special area."
+			"description": "Sets the width and height for a special area, if sizes are not given, sets an area of 1x1."
 		}
 	]
 }

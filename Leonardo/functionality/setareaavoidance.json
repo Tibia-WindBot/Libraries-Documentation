@@ -6,14 +6,14 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "avoidance"
 				}
 			],
-			"description": "Sets the avoidance level for a special area."
+			"description": "Sets the avoidance for a special area. If avoidance is not given, sets it to 0."
 		}
 	]
 }

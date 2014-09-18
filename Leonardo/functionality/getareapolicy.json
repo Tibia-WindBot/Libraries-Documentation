@@ -6,12 +6,10 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				}
 			],
-			"description": "Returns the policy of a special area.",
-			"ex": "if getareapolicy('SpecialArea1') == POLICY_TARGETING then\n\tsetareapolicy('SpecialArea1', POLICY_ALL)\nend",
-			"exDescription": "It'll change the 'SpecialArea1' policy to Cavebot & Targeting' if it was only for 'Targeting'."
+			"description": "Gets the policy of a special area."
 		}
 	]
 }

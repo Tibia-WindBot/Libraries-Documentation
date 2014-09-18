@@ -6,35 +6,33 @@
 			"args": [
 				{
 					"type": "number",
-					"name": "x1"
+					"name": "xfrom"
 				},
 				{
 					"type": "number",
-					"name": "y1"
+					"name": "yfrom"
 				},
 				{
 					"type": "number",
-					"name": "z1"
+					"name": "zfrom"
 				},
 				{
 					"type": "number",
-					"name": "x2"
+					"name": "xto"
 				},
 				{
 					"type": "number",
-					"name": "y2"
+					"name": "yto"
 				},
 				{
 					"type": "number",
-					"name": "z2"
+					"name": "zto"
 				}
 			],
-			"description": "Returns the distance between positions given or -1 if it's not located on the same floor.",
-			"ex": "auto(1000, 2000)\nif getdistancebetween($posx, $posy, $posz, 33333, 44444, 5) > 50 then\n\tlistas('Too far')\nelse\n\tlistas('Getting closer!')\nend",
-			"exDescription": "It'll list script name as 'Too far' if the position 33333:44444:5 is more than 50 sqms from you current position, else it'll show 'Getting Closer!'."
+			"description": "Returns the distance between positions given or -1 if it's not located on the same floor."
 		},
 		{
-			"rettype": "number",
+			"rettype": "integer",
 			"args": [
 				{
 					"type": "table",
@@ -45,25 +43,7 @@
 					"name": "coords2"
 				},
 			],
-			"description": "Returns the distance between positions given or -1 if it's not located on the same floor.",
-			"ex": "auto(1000, 2000)\nif getdistancebetween({$posx, $posy, $posz}, {33333, 44444, 5}) > 50 then\n\tlistas('Too far')\nelse\n\tlistas('Getting closer!')\nend",
-			"exDescription": "It'll list script name as 'Too far' if the position 33333:44444:5 is more than 50 sqms from you current position, else it'll show 'Getting Closer!'."
-		},
-		{
-			"rettype": "number",
-			"args": [
-				{
-					"type": "table",
-					"name": "coords1"
-				},
-				{
-					"type": "table",
-					"name": "coords2"
-				},
-			],
-			"description": "Returns the distance between positions given or -1 if it's not located on the same floor.",
-			"ex": "auto(1000, 2000)\nif getdistancebetween({x = $posx, y = $posy, z = $posz}, {x = 33333, y = 44444, z = 5}) > 50 then\n\tlistas('Too far')\nelse\n\tlistas('Getting closer!')\nend",
-			"exDescription": "It'll list script name as 'Too far' if the position 33333:44444:5 is more than 50 sqms from you current position, else it'll show 'Getting Closer!'."
+			"description": "Returns the distance between positions given or -1 if it's not located on the same floor."
 		}
 	]
 }

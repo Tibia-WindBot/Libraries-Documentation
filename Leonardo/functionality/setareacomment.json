@@ -6,11 +6,11 @@
                         "args": [
                                 {
                                         "type": "string",
-                                        "name": "areaname"
+                                        "name": "name"
                                 },
                                 {
-                                  		"type": "string",
-                                		"name": "comment"
+                                  "type": "string",
+                                  "name": "comment"
                                 }
                         ],
                         "description": "Sets the commentary for a special area."

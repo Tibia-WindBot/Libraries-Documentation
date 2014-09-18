@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				},
 				{
 					"type": "string",

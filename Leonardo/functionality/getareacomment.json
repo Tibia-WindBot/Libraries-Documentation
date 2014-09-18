@@ -6,12 +6,10 @@
                         "args": [
                                 {
                                         "type": "string",
-                                        "name": "areaname"
+                                        "name": "name"
                                 }
                         ],
-                        "description": "Returns the commentary of a special area.",
-                        "ex": "auto(100, 200)\nlocal areaComment = getareacomment('SpecialArea1')\nlistas(areaComment)",
-			"exDescription": "It'll set the persistent script name as the 'SpecialArea1' commentary."
+                        "description": "Gets the commentary of a special area."
                 }
         ]
 }

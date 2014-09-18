@@ -6,22 +6,22 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "x"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "y"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "z"
 				}
 			],
-			"description": "Sets the special area starting position."
+			"description": "Sets the special area initial position, if positions are not given your current coordinates are used."
 		}
 	]
 }

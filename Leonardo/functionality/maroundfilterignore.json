@@ -9,19 +9,19 @@
 					"name": "range"
 				},
 				{
-					"type": "bool",
-					"name": "allfloors"
+					"type": "optional bool",
+					"name": "floor"
 				},
 				{
 					"type": "optional string",
-					"name": "names¹, names², ..., names*"
+					"name": "name¹, name², ..., name*"
 				},
 				{
 					"type": "optional function",
-					"name": "f"
+					"name": "filter"
 				}
 			],
-			"description": "Returns the amount of monsters found in the range distance, excluding creature names found in the list. Optionally you can add a function to filter those creatures."
+			"description": "Returns the amount of monsters found in the <i>range</i> distance, excluding the creature <i>names</i> found in the list. Optionally you can add a function to <i>filter</i> the amount of creatures found."
 		}
 	]
 }

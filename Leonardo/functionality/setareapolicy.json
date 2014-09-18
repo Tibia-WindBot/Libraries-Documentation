@@ -1,5 +1,5 @@
 {
-	"name": "setareaextrapolicy",
+	"name": "setareapolicy",
 	"invocations": [
 		{
 			"rettype": null,
@@ -11,13 +11,9 @@
 				{
 				  "type": "string",
 				  "name": "policy"
-				},
-				{
-				  "type": "bool",
-				  "name": "onoff"
 				}
 			],
-			"description": "Enables/Disables the extra policy of the special area given."
+			"description": "Sets the policy of a special area."
 		}
 	]
 }

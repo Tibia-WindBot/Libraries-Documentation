@@ -1,27 +1,27 @@
 {
-	"name": "paroundfilter",
-	"invocations": [
-		{
-			"rettype": "number",
-			"args": [
-				{
-					"type": "number",
-					"name": "range"
-				},
-				{
-					"type": "bool",
-					"name": "allfloors"
-				},
-				{
-					"type": "optional string",
-					"name": "names¹, names², ..., name*"
-				},
-				{
-					"type": "optional function",
-					"name": "f"
-				}
-			],
-			"description": "Returns the amount of players found in the range distance. Optionally you can add a function to filter those creatures."
-		}
-	]
+        "name": "paroundfilter",
+        "invocations": [
+                {
+                        "rettype": "number",
+                        "args": [
+                                {
+                                        "type": "number",
+                                        "name": "range"
+                                },
+                                {
+                                        "type": "optional bool",
+                                        "name": "floor"
+                                },
+                                {
+                                        "type": "optional string",
+                                        "name": "name¹, name², ..., name*"
+                                },
+                                {
+                                        "type": "optional function",
+                                        "name": "filter"
+                                }
+                        ],
+                        "description": "Returns the amount of players found in the <i>range</i> distance. Optionally you can add a function to <i>filter</i> the amount of players found."
+                }
+        ]
 }

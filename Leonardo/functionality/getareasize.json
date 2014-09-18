@@ -6,12 +6,10 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "areaname"
+					"name": "name"
 				}
 			],
-			"description": "Returns the special area width and height.",
-			"ex": "local areaSize = getareasize('SpecialArea1')\n\nif areaSize.w < 10 and areaSize.h < 10 then\n\tsetareasize('SpecialArea1', 50, 50)\nend",
-			"exDescription": "It'll change the 'SpecialArea1' square size from 10x10 to 50x50."
+			"description": "Returns the width and height of a special area."
 		}
 	]
 }

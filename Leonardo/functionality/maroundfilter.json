@@ -9,8 +9,8 @@
 					"name": "range"
 				},
 				{
-					"type": "bool",
-					"name": "allfloors"
+					"type": "optional bool",
+					"name": "floor"
 				},
 				{
 					"type": "optional string",
