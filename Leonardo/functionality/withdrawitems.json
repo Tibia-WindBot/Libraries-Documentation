@@ -15,6 +15,10 @@
 				{
 					"type": "string",
 					"name": "item¹, item², ..., item*",
+				},
+				{
+					"type": "optional function",
+					"name": "delayFunc",
 				}
 			],
 			"description": "Withdraw items from the <i>maincont</i> to the <i>seccont</i>. Returns true if successful, false otherwise."
@@ -29,6 +33,10 @@
 				{
 					"type": "table",
 					"name": "item¹, item², ..., item*",
+				},
+				{
+					"type": "optional function",
+					"name": "delayFunc",
 				}
 			],
 			"description": "Withdraw items from the <i>maincont</i> to the backpack given on each item parameter. Returns true if successful, false otherwise."
