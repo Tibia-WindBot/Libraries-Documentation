@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "code"
-				},
+				}
 			],
 			"description": "Executes a given string and returns its return values."
 		}
