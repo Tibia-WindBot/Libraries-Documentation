@@ -3,8 +3,15 @@
 	"invocations": [
 		{
 			"rettype": null,
-			"args": [],
-			"description": "Verifies that certain requirements, such as libraries and bot version, are met. Throws an error if it doesn't."
+			"args": [
+				{
+					"type": "table",
+					"name": "reqs"
+				}
+			],
+			"description": "Verifies that certain requirements, such as libraries and bot version, are met. Throws an error if it doesn't.",
+			"ex": "init start\n\trequires({{$botversion, \"3.0.0\", \"Bot version\"}})\ninit end\n\nauto(200, 400)\n...",
+			"exDescription": "It'll throw an error if the current version of your bot is lower than 3.0.0"
 		}
 	]
 }
