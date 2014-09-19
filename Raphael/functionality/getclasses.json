@@ -7,7 +7,7 @@
 				{
 					"type": "various",
 					"name": "value"
-				},
+				}
 			],
 			"description": "Gets the variable's classes, looking for the __class index on their metatables."
 		}
