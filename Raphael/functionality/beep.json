@@ -4,7 +4,7 @@
 		{
 			"rettype": null,
 			"args": [],
-			"description": "Shorthand method for playing a beep."
+			"description": "Plays a beep alert and flashes the client."
 		}
 	]
 }
