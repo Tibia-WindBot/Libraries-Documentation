@@ -5,14 +5,15 @@
 			"rettype": null,
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
-				},				{
+				},
+				{
 					"type": "string",
 					"name": "property"
-				},
+				}
 			],
-			"description": "Converts any variable to a numeric representation; that means one or zero."
+			"description": "Converts any given value to a numeric representation, that means one or zero. If property is set to true it'll check whether the conversion should be strict this means 'no' and 'off' are considered true.""
 		}
 	]
 }
