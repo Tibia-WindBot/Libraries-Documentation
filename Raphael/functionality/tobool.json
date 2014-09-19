@@ -7,7 +7,8 @@
 				{
 					"type": "various",
 					"name": "value"
-				},				{
+				},
+				{
 					"type": "optional string",
 					"name": "property"
 				}
