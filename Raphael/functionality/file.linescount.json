@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "filename"
-				},
+				}
 			],
 			"description": "Gets the number of lines in a given file. Returns -1 if file doesn't exist."
 		}
