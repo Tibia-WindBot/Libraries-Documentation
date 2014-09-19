@@ -6,13 +6,13 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "t"
+					"name": "tbl"
 				},				{
-					"type": "optional any",
-					"name": ""
+					"type": "optional various",
+					"name": "arg¹, arg², ..., arg*"
 				},
 			],
-			"description": "Calls the firs item in the t table passing the other items as arguments. Optionally, extra arguments can be included by passing them after the table; these are passed as arguments before the items of the array."
+			"description": "Calls the first item in the table <i>tbl</i> passing the other items as arguments. Optionally, extra arguments can be included by passing them after the table. These are passed as arguments before the items of the array."
 		}
 	]
 }
