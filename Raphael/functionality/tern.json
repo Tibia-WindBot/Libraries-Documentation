@@ -7,13 +7,15 @@
 				{
 					"type": "bool",
 					"name": "expression"
-				},				{
+				},
+				{
 					"type": "various",
 					"name": "value1"
-				},				{
+				},
+				{
 					"type": "various",
 					"name": "value2"
-				},
+				}
 			],
 			"description": "Helper for the ternary operator that Lua lacks. Returns <i>valu1</i> if <i>expression</i> is true, <i>value2</i> otherwise."
 		}
