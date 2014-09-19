@@ -2,17 +2,18 @@
 	"name": "toyesno",
 	"invocations": [
 		{
-			"rettype": null,
+			"rettype": "string",
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
-				},				{
-					"type": "string",
-					"name": "property"
 				},
+				{
+					"type": "optional string",
+					"name": "property"
+				}
 			],
-			"description": "Converts any variable to a yes/no representation."
+			"description": "Converts any variable to a yes/no representation. If property is set to true it'll check whether the conversion should be strict this means 'no' and 'off' are considered true."
 		}
 	]
 }
