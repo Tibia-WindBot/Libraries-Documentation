@@ -5,11 +5,11 @@
 			"rettype": "string",
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
-				},
+				}
 			],
-			"description": "Gets the variable's type. Works for user created classes, using getclasses()."
+			"description": "Returns the variable's type name. Works for user created classes, using getclasses()."
 		}
 	]
 }
