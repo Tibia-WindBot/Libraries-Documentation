@@ -10,9 +10,9 @@
 				},				{
 					"type": "string",
 					"name": "v2"
-				},
+				}
 			],
-			"description": "Compares version strings. Receives two version strings, compares them and return a boolean indicating whether v1 is equal to or higher than v2."
+			"description": "Compares version strings. Receives two version strings, compares them and return a boolean indicating whether <i>v1</i> is equal to or higher than <i>v2</i>."
 		}
 	]
 }
