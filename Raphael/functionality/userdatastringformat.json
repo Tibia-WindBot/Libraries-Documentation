@@ -6,10 +6,10 @@
 			"args": [
 				{
 					"type": "userdata",
-					"name": "userdata"
-				},
+					"name": "obj"
+				}
 			],
-			"description": "Converts a userdata into a string reprensentation."
+			"description": "Converts a userdata object into a string reprensentation."
 		}
 	]
 }
