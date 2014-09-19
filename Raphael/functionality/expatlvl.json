@@ -7,7 +7,7 @@
 				{
 					"type": "number",
 					"name": "level"
-				},
+				}
 			],
 			"description": "Calculates the total experience at specified level."
 		}
