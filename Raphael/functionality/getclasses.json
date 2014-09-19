@@ -5,7 +5,7 @@
 			"rettype": "string",
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
 				},
 			],
