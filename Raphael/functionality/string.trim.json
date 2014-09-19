@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "self"
-				},				{
+				},
+				{
 					"type": "optional stringtable",
 					"name": "chars"
-				},
+				}
 			],
 			"description": "Removes given characters from beginning and ending of given string."
 		}
