@@ -12,7 +12,7 @@
 					"name": "n"
 				},
 			],
-			"description": "Returns the nth character in a given string."
+			"description": "Returns the <i>n</i>th character in a given string."
 		}
 	]
 }
