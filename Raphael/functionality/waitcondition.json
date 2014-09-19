@@ -13,9 +13,9 @@
 				},				{
 					"type": "optional table",
 					"name": "fArgs"
-				},
+				}
 			],
-			"description": "Waits until a condition is satisfied for a maximum time of `time`. Condition must be passed as the `f` argument and any extra parameters and be passed as a table, as the `fArgs` parameter. If the condition fulfills in the given time, true is returned, else false."
+			"description": "Waits until a condition is satisfied for a maximum time of <i>time</i>. Condition must be passed as the <i>f</i> argument and any extra parameters must be passed as a table, as the <i>fArgs</i> parameter. If the condition fulfills in the given time, true is returned, else false."
 		}
 	]
 }
