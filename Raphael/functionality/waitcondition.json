@@ -7,10 +7,12 @@
 				{
 					"type": "function",
 					"name": "f"
-				},				{
+				},
+				{
 					"type": "number",
 					"name": "time"
-				},				{
+				},
+				{
 					"type": "optional table",
 					"name": "fArgs"
 				}
