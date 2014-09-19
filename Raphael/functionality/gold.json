@@ -7,10 +7,11 @@
 				{
 					"type": "optional string",
 					"name": "coin"
-				},				{
+				},
+				{
 					"type": "optional string",
 					"name": "location"
-				},
+				}
 			],
 			"description": "Gets the total amount of visible gold you're carrying."
 		}
