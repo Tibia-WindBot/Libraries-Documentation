@@ -7,12 +7,17 @@
 				{
 					"type": "string",
 					"name": "setting"
-				},				{
-					"type": "string",
+				},
+				{
+					"type": "optional string",
 					"name": "a"
 				},
+				{
+					"type": "optional string",
+					"name": "b"
+				}
 			],
-			"description": "Toggles a setting. If it's set to `a`, sets it to `b` and the other way around."
+			"description": "Toggles a setting. If it's set to <i>a</i>, sets it to <i>b</i> and the other way around."
 		}
 	]
 }
