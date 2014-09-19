@@ -10,7 +10,7 @@
 				},				{
 					"type": "optional string",
 					"name": "property"
-				},
+				}
 			],
 			"description": "Converts any given value to a boolean representation. If property is set to true it'll check whether the conversion should be strict this means 'no' and 'off' are considered true."
 		}
