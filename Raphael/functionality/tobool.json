@@ -2,17 +2,17 @@
 	"name": "tobool",
 	"invocations": [
 		{
-			"rettype": null,
+			"rettype": "boolean",
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
 				},				{
-					"type": "string",
+					"type": "optional string",
 					"name": "property"
 				},
 			],
-			"description": "Converts any variable to a boolean representation."
+			"description": "Converts any given value to a boolean representation. If property is set to true it'll check whether the conversion should be strict this means 'no' and 'off' are considered true."
 		}
 	]
 }
