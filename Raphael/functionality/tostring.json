@@ -5,11 +5,11 @@
 			"rettype": "string",
 			"args": [
 				{
-					"type": "any",
+					"type": "various",
 					"name": "value"
 				},
 			],
-			"description": "Converts any value into a string. Handles tables and userdatas specially."
+			"description": "Converts any given value into a string. Handles tables and userdatas specially."
 		}
 	]
 }
