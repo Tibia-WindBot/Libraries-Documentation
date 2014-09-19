@@ -7,7 +7,7 @@
 				{
 					"type": "table",
 					"name": "self"
-				},
+				}
 			],
 			"description": "Returns the maximum value of all items in the given table."
 		}
