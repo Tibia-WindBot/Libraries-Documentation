@@ -2,7 +2,7 @@
 	"name": "getopencontainers",
 	"invocations": [
 		{
-			"rettype": null,
+			"rettype": "table",
 			"args": [],
 			"description": "Returns all the open containers' objects."
 		}
