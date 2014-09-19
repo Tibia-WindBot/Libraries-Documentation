@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "messages"
+					"name": "msg¹, msg², ..., msg*"
 				},				{
 					"type": "optional boolean",
 					"name": "normalWait"
