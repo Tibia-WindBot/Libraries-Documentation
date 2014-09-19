@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "filename"
-				},				{
+				},
+				{
 					"type": "number",
 					"name": "linenum"
-				},
+				}
 			],
 			"description": "Gets the content of the nth file line. Returns nil if file doesn't exist."
 		}
