@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "self"
-				},				{
+				},
+				{
 					"type": "number",
 					"name": "n"
-				},
+				}
 			],
 			"description": "Returns the <i>n</i>th character in a given string."
 		}
