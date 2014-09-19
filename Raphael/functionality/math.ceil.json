@@ -9,7 +9,7 @@
 					"name": "self"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "mult"
 				}
 			],
