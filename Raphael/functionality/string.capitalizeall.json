@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "self"
-				},
+				}
 			],
 			"description": "Capitalizes the first character of every word in a given string."
 		}
