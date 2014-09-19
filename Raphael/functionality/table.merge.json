@@ -7,10 +7,11 @@
 				{
 					"type": "optional table",
 					"name": "table"
-				},				{
+				},
+				{
 					"type": "optional boolean",
 					"name": "forceKey"
-				},
+				}
 			],
 			"description": "Merges the items of the given tables to a single table."
 		}
