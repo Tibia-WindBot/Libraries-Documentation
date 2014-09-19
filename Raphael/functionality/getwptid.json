@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "label"
-				},
+				}
 			],
 			"description": "Returns the ID of the given waypoint's label. Only works on the current section. If no waypoint with that label is found, nothing is returned."
 		}
