@@ -5,17 +5,17 @@
 			"rettype": "various",
 			"args": [
 				{
-					"type": "any",
-					"name": "expr1"
+					"type": "bool",
+					"name": "expression"
 				},				{
-					"type": "any",
-					"name": "expr2"
+					"type": "various",
+					"name": "value1"
 				},				{
-					"type": "any",
-					"name": "expr3"
+					"type": "various",
+					"name": "value2"
 				},
 			],
-			"description": "Helper for the ternary operator that Lua lacks. Returns `expr2` if `expr1` is true, `expr3` otherwise."
+			"description": "Helper for the ternary operator that Lua lacks. Returns <i>valu1</i> if <i>expression</i> is true, <i>value2</i> otherwise."
 		}
 	]
 }
