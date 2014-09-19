@@ -3,8 +3,13 @@
 	"invocations": [
 		{
 			"rettype": null,
-			"args": [],
-			"description": "Handles pressing specific keys in the given sentence. It reads the `keys` argument and presses the keys as if a human was writing it. For special keys, make use of brackets. For instance, to press delete, use [DELETE]."
+			"args": [
+				{
+					"type": "string",
+					"name": "keys"
+				}
+			],
+			"description": "Handles pressing specific keys in the given sentence. It reads the 'keys' argument and presses the keys as if a human was writing it. For special keys, make use of brackets. For instance, to press delete, use [DELETE]."
 		}
 	]
 }
