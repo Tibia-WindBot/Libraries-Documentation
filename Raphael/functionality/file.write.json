@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "filename"
-				},
+				}
 			],
 			"description": "Appends content to the end of given file. If the file does not exist, it's created."
 		}
