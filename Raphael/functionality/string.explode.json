@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "self"
-				},				{
+				},
+				{
 					"type": "string",
 					"name": "delimiter"
-				},
+				}
 			],
 			"description": "Splits the string by the specified delimiter. Returns an array of strings, each of which is a substring of self formed by splitting it on boundaries formed by the string delimiter."
 		}
