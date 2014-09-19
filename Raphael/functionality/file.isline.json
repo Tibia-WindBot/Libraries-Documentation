@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "filename"
-				},				{
+				},
+				{
 					"type": "string",
 					"name": "content"
-				},
+				}
 			],
 			"description": "Checks whether the any file line matches given content. Returns false if it can't be found."
 		}
