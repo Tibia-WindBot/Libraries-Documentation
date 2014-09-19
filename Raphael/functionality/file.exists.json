@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "filename"
-				},
+				}
 			],
 			"description": "Checks wheter given file exists in disk or not."
 		}
