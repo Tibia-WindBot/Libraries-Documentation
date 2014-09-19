@@ -7,10 +7,11 @@
 				{
 					"type": "number",
 					"name": "self"
-				},				{
-					"type": "number",
-					"name": "mult"
 				},
+				{
+					"type": "optional number",
+					"name": "mult"
+				}
 			],
 			"description": "Rounds down to the nearest multiple of mult."
 		}
