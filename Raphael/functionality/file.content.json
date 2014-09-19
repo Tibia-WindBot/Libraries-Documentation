@@ -1,0 +1,15 @@
+{
+	"name": "file.content",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "filename"
+				},
+			],
+			"description": "Gets all the content of a given file. Returns nil if file doesn't exist."
+		}
+	]
+}

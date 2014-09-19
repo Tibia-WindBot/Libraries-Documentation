@@ -1,0 +1,15 @@
+{
+	"name": "table.first",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Returns the first item of the given table."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "math.ceil",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "self"
+				},				{
+					"type": "number",
+					"name": "mult"
+				},
+			],
+			"description": "Rounds up to the nearest multiple of mult."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "table.average",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Returns the average of all items in the given table."
+		}
+	]
+}

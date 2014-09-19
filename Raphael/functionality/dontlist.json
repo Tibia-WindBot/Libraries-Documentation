@@ -1,0 +1,10 @@
+{
+	"name": "dontlist",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Shorthand method for not listing a hotkey."
+		}
+	]
+}

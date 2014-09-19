@@ -1,0 +1,18 @@
+{
+	"name": "math.round",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "self"
+				},				{
+					"type": "number",
+					"name": "mult"
+				},
+			],
+			"description": "Rounds to the nearest multiple of mult. If it's exactly between two multiples, rounds up."
+		}
+	]
+}

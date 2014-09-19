@@ -1,0 +1,18 @@
+{
+	"name": "string.ends",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "self"
+				},				{
+					"type": "string",
+					"name": "substr"
+				},
+			],
+			"description": "Checks whether a given string ends with a given substring."
+		}
+	]
+}

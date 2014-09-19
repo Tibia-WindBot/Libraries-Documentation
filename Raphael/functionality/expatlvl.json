@@ -1,0 +1,15 @@
+{
+	"name": "expatlvl",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "level"
+				},
+			],
+			"description": "Calculates the total experience at specified level."
+		}
+	]
+}

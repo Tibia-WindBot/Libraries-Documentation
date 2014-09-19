@@ -1,0 +1,15 @@
+{
+	"name": "string.capitalize",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "self"
+				},
+			],
+			"description": "Capitalizes the first character in a given string."
+		}
+	]
+}

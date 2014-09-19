@@ -1,0 +1,15 @@
+{
+	"name": "exec",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "string",
+					"name": "code"
+				},
+			],
+			"description": "Executes a given string and returns its return values."
+		}
+	]
+}

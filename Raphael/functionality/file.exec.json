@@ -1,0 +1,15 @@
+{
+	"name": "file.exec",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "string",
+					"name": "filename"
+				},
+			],
+			"description": "Executes the content of given file. Returns nil if file doesn't exist."
+		}
+	]
+}

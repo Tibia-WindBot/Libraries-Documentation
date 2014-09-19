@@ -1,0 +1,15 @@
+{
+	"name": "userdatastringformat",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "userdata",
+					"name": "userdata"
+				},
+			],
+			"description": "Converts a userdata into a string reprensentation."
+		}
+	]
+}

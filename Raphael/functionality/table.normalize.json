@@ -1,0 +1,10 @@
+{
+	"name": "table.normalize",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Normalizes the given table, removing nil values and rearranging the indexes."
+		}
+	]
+}

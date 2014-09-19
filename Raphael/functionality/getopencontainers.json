@@ -1,0 +1,10 @@
+{
+	"name": "getopencontainers",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Returns all the open containers' objects."
+		}
+	]
+}

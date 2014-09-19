@@ -1,0 +1,18 @@
+{
+	"name": "string.starts",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "self"
+				},				{
+					"type": "string",
+					"name": "substr"
+				},
+			],
+			"description": "Checks whether a given string starts with a given substring."
+		}
+	]
+}

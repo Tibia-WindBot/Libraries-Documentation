@@ -1,0 +1,10 @@
+{
+	"name": "file.clear",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Clears all the content of the given file. If the file does not exist, it's created. Useful to create new, empty files."
+		}
+	]
+}

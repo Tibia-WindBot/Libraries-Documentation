@@ -1,0 +1,18 @@
+{
+	"name": "toggle",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "setting"
+				},				{
+					"type": "string",
+					"name": "a"
+				},
+			],
+			"description": "Toggles a setting. If it's set to `a`, sets it to `b` and the other way around."
+		}
+	]
+}

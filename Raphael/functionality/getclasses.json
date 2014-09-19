@@ -1,0 +1,15 @@
+{
+	"name": "getclasses",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "any",
+					"name": "value"
+				},
+			],
+			"description": "Gets the variable's classes, looking for the __class index on their metatables."
+		}
+	]
+}

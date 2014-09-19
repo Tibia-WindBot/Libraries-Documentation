@@ -1,0 +1,10 @@
+{
+	"name": "flasks",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Gets the total amount of visible flasks you're carrying."
+		}
+	]
+}

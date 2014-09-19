@@ -1,0 +1,10 @@
+{
+	"name": "timezone",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [],
+			"description": "Returns the current computers timezone string. Ex: UTC +3"
+		}
+	]
+}

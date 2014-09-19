@@ -1,0 +1,15 @@
+{
+	"name": "table.filter",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Runs a routine through every item in the given table and remove it from the table if the routine returns false."
+		}
+	]
+}

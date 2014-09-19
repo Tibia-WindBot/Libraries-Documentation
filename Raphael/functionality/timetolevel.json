@@ -1,0 +1,15 @@
+{
+	"name": "timetolevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "level"
+				},
+			],
+			"description": "Calculates the amount of time needed to advance to the specified level, if the current experience rate is kept. If `extraPrecision` is enabled, the time is returned in seconds, otherwise, in minutes."
+		}
+	]
+}

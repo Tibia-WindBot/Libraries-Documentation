@@ -1,0 +1,15 @@
+{
+	"name": "file.rewrite",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "filename"
+				},
+			],
+			"description": "Write content to the given file, erasing any previous content. If the file does not exist, it's created."
+		}
+	]
+}

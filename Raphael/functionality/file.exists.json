@@ -1,0 +1,15 @@
+{
+	"name": "file.exists",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "filename"
+				},
+			],
+			"description": "Checks wheter given file exists in disk or not."
+		}
+	]
+}

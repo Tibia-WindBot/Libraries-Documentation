@@ -1,0 +1,10 @@
+{
+	"name": "utcoffset",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Returns the amount of seconds the computer's clock is currently offset from UTC timezone."
+		}
+	]
+}

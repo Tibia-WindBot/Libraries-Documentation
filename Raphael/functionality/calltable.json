@@ -1,0 +1,18 @@
+{
+	"name": "calltable",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "table",
+					"name": "t"
+				},				{
+					"type": "optional any",
+					"name": ""
+				},
+			],
+			"description": "Calls the firs item in the t table passing the other items as arguments. Optionally, extra arguments can be included by passing them after the table; these are passed as arguments before the items of the array."
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "tostring",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "any",
+					"name": "value"
+				},
+			],
+			"description": "Converts any value into a string. Handles tables and userdatas specially."
+		}
+	]
+}

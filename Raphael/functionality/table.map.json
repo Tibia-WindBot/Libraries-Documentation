@@ -1,0 +1,15 @@
+{
+	"name": "table.map",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Runs a routine through every item in the given table and replace the item with the value returned by it. The routine to be ran will receive as arguments, for each item, it's value and correspondet index."
+		}
+	]
+}

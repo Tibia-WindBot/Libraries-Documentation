@@ -1,0 +1,15 @@
+{
+	"name": "table.last",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Returns the last item of the given table."
+		}
+	]
+}

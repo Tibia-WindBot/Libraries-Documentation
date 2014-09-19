@@ -1,0 +1,10 @@
+{
+	"name": "maxcap",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Returns the maximum capacity for the character current logged on. It may get it wrong if you left rookgard after level 8."
+		}
+	]
+}

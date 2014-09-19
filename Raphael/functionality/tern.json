@@ -1,0 +1,21 @@
+{
+	"name": "tern",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "any",
+					"name": "expr1"
+				},				{
+					"type": "any",
+					"name": "expr2"
+				},				{
+					"type": "any",
+					"name": "expr3"
+				},
+			],
+			"description": "Helper for the ternary operator that Lua lacks. Returns `expr2` if `expr1` is true, `expr3` otherwise."
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "beep",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Shorthand method for playing a beep."
+		}
+	]
+}

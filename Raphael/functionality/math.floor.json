@@ -1,0 +1,18 @@
+{
+	"name": "math.floor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "self"
+				},				{
+					"type": "number",
+					"name": "mult"
+				},
+			],
+			"description": "Rounds down to the nearest multiple of mult."
+		}
+	]
+}

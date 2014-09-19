@@ -1,0 +1,15 @@
+{
+	"name": "table.copy",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Makes a deep, by value, copy of a table. This solves referencing problems. This may be slow for big, complex tables; use carefully."
+		}
+	]
+}

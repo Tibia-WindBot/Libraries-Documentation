@@ -1,0 +1,15 @@
+{
+	"name": "type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "any",
+					"name": "value"
+				},
+			],
+			"description": "Gets the variable's type. Works for user created classes, using getclasses()."
+		}
+	]
+}

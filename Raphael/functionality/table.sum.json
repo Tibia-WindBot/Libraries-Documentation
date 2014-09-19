@@ -1,0 +1,15 @@
+{
+	"name": "table.sum",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},
+			],
+			"description": "Returns the sum of all items in the given table."
+		}
+	]
+}

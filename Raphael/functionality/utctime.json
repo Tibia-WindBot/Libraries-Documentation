@@ -1,0 +1,10 @@
+{
+	"name": "utctime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Returns the current time of day, in seconds, on UTC timezone."
+		}
+	]
+}

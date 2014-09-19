@@ -1,0 +1,24 @@
+{
+	"name": "string.fit",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "self"
+				},				{
+					"type": "number",
+					"name": "size"
+				},				{
+					"type": "optional string",
+					"name": "trailing"
+				},				{
+					"type": "optional boolean",
+					"name": "trueSize"
+				},
+			],
+			"description": "Makes sure the given string fits in the given size. If set, adds `trailing` to end of it. If `trueSize` is set to false, the comparison is made using the string length; if it's set to true, the comparison is made using the actual string width, in pixels, gathered by using `measurestring`."
+		}
+	]
+}

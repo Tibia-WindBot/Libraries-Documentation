@@ -1,0 +1,18 @@
+{
+	"name": "string.at",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "self"
+				},				{
+					"type": "number",
+					"name": "n"
+				},
+			],
+			"description": "Returns the nth character in a given string."
+		}
+	]
+}

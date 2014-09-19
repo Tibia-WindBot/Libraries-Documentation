@@ -1,0 +1,15 @@
+{
+	"name": "getwptid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "label"
+				},
+			],
+			"description": "Given a waypoint's label, gives its ID. Only works on the current section. If no waypoint with that label is found, nothing is returned."
+		}
+	]
+}

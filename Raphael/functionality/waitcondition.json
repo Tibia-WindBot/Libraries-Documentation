@@ -1,0 +1,21 @@
+{
+	"name": "waitcondition",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "function",
+					"name": "f"
+				},				{
+					"type": "number",
+					"name": "time"
+				},				{
+					"type": "optional table",
+					"name": "fArgs"
+				},
+			],
+			"description": "Waits until a condition is satisfied for a maximum time of `time`. Condition must be passed as the `f` argument and any extra parameters and be passed as a table, as the `fArgs` parameter. If the condition fulfills in the given time, true is returned, else false."
+		}
+	]
+}

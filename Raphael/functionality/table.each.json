@@ -1,0 +1,18 @@
+{
+	"name": "table.each",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "table",
+					"name": "self"
+				},				{
+					"type": "function",
+					"name": "f"
+				},
+			],
+			"description": "Runs a routine through every item in the given table. The routine to be ran will receive as arguments, for each item, it's value and correspondet index."
+		}
+	]
+}

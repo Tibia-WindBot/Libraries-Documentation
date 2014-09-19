@@ -1,0 +1,10 @@
+{
+	"name": "sstime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Returns amount of seconds left for the next server save."
+		}
+	]
+}
