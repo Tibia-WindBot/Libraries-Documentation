@@ -4,7 +4,7 @@
 		{
 			"rettype": "number",
 			"args": [],
-			"description": "Gets the total amount of visible flasks you're carrying."
+			"description": "Returns the total amount of visible flasks you're carrying."
 		}
 	]
 }
