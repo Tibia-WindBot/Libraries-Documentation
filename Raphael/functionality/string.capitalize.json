@@ -7,7 +7,7 @@
 				{
 					"type": "string",
 					"name": "self"
-				},
+				}
 			],
 			"description": "Capitalizes the first character in a given string."
 		}
