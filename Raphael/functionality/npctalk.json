@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "msg¹, msg², ..., msg*"
-				},				{
+				},
+				{
 					"type": "optional boolean",
 					"name": "normalWait"
-				},
+				}
 			],
 			"description": "Handles talking to a NPC. Takes care of all waiting times and checks if NPCs channel is open. By default, it uses a waiting method that waits until it sees the the message was actually sent. Optionally, you can opt for the original waitping() solution, passing `normalWait` as true."
 		}
