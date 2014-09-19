@@ -7,10 +7,11 @@
 				{
 					"type": "string",
 					"name": "self"
-				},				{
+				},
+				{
 					"type": "string",
 					"name": "substr"
-				},
+				}
 			],
 			"description": "Forces a given string to begin with a given substring."
 		}
