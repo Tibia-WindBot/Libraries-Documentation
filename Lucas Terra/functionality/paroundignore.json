@@ -1,25 +1,19 @@
-{
+﻿{
 	"name": "paroundignore",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "dist"
 				},
 				{
-					"type": "various",
-					"name": "floor"
-				},
-				{
-					"type": "various",
-					"name": "name�,"
+					"type": "string",
+					"name": "player¹, player², player*, ..."
 				}
 			],
-			"description": "Returns the amount of players around you, except the ones found listed.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of players around you, except the ones found listed."
 		}
 	]
 }

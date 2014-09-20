@@ -1,0 +1,15 @@
+﻿{
+	"name": "isabletocast",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "spell"
+				}
+			],
+			"description": "Returns true if can cast the spell, false otherwise. Checks if the requirements except vocation are met to cast it."
+		}
+	]
+}

@@ -1,17 +1,15 @@
-{
+﻿{
 	"name": "openbps",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "bp�,"
+					"type": "string",
+					"name": "bpname¹, bpname², bpname*, ..."
 				}
 			],
-			"description": "Opens and resizes all the backpacks given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Opens and resizes all the backpacks given."
 		}
 	]
 }

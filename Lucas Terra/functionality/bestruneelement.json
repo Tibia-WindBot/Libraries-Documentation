@@ -9,11 +9,25 @@
 					"name": "cre"
 				},
 				{
-					"type": "boolean",
-					"name": "disconsider"
+					"type": "optional bool",
+					"name": "disconsiderdmg"
 				}
 			],
-			"description": "Returns the best rune element for the creature given."
+			"description": "Returns the best rune element name for the creature given. If <i>disconsiderdmg</i> is set to true, it'll consider the best rune against the creature given, otherwise it'll consider the best damage based on your level, spell formula and the creature weakness."
+		},
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "crename"
+				},
+				{
+					"type": "optional bool",
+					"name": "disconsiderdmg"
+				}
+			],
+			"description": "Returns the best rune element name for the creature given. If <i>disconsiderdmg</i> is set to true, it'll consider the best rune against the creature given, otherwise it'll consider the best damage based on your level, spell formula and the creature weakness."
 		}
 	]
 }

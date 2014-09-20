@@ -9,7 +9,17 @@
 					"name": "cre"
 				}
 			],
-			"description": "Returns the best element weapon for the creature given."
+			"description": "Returns the best element weapon and element name for the creature given."
+		},
+		{
+			"rettype": "number, string",
+			"args": [
+				{
+					"type": "string",
+					"name": "crename"
+				}
+			],
+			"description": "Returns the best element weapon and element name for the creature given."
 		}
 	]
 }

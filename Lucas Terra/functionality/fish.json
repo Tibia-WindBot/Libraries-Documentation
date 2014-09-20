@@ -2,14 +2,24 @@
 	"name": "fish",
 	"invocations": [
 		{
-			"rettype": "table",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
-					"name": "item"
+					"type": "number",
+					"name": "distance"
 				}
 			],
-			"description": "Uses fishing rod on the fishable tiles in range."
+			"description": "Uses fishing rod on the fishable tiles within <i>distance</i> range."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "waterspotid"
+				}
+			],
+			"description": "Uses fishing rod in any fishable spot with the same ID as given."
 		}
 	]
 }

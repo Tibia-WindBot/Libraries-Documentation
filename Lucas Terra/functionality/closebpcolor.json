@@ -2,11 +2,11 @@
 	"name": "closebpcolor",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "bp"
+					"type": "string",
+					"name": "bpcolor"
 				},
 				{
 					"type": "number",

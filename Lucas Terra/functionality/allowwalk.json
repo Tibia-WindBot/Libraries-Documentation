@@ -2,19 +2,17 @@
 	"name": "allowwalk",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",
 					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Allow the cavebot engine to walk over the items in list.",
-			"ex": "allowwalk("venorean wardrobe kit", "venorean bed kit")",
-			"exDescription": "Allows the bot to walk over items with name 'venorean wardrobe kit' and 'venorean bed kit'."
+			"description": "Allow the cavebot engine to walk over the items in list."
 		},
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "number",

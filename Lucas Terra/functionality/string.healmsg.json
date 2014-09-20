@@ -1,0 +1,15 @@
+{
+	"name": "string.healmsg",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "string",
+					"name": "str"
+				}
+			],
+			"description": "Returns the parsed information about the healing message given."
+		}
+	]
+}

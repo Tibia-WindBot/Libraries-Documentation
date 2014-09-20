@@ -2,20 +2,18 @@
 	"name": "settargeting",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "type"
+					"type": "bool",
+					"name": "option"
 				},
 				{
-					"type": "various",
-					"name": "stop"
+					"type": "optional bool",
+					"name": "stopattack"
 				}
 			],
-			"description": "Toggle the targetting engine.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Toggle the targetting engine."
 		}
 	]
 }

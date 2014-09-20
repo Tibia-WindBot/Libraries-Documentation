@@ -2,7 +2,7 @@
 	"name": "dropitems",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",
@@ -10,6 +10,20 @@
 				},
 				{
 					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Drops items on the ground."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "pos"
+				},
+				{
+					"type": "number",
 					"name": "item¹, item², item*, ..."
 				}
 			],

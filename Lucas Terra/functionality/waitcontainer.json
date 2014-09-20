@@ -2,20 +2,18 @@
 	"name": "waitcontainer",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "container"
 				},
 				{
-					"type": "various",
+					"type": "optional bool",
 					"name": "newwindow"
 				}
 			],
-			"description": "Waits until the container given os opened.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Waits until the container given os opened."
 		}
 	]
 }

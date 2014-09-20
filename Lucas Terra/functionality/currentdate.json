@@ -1,0 +1,10 @@
+{
+	"name": "currentdate",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [],
+			"description": "Returns the current date."
+		}
+	]
+}

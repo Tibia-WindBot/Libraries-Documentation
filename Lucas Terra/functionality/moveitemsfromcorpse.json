@@ -1,29 +1,49 @@
-{
+﻿{
 	"name": "moveitemsfromcorpse",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "corpse"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "dest"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "amount"
 				},
 				{
-					"type": "various",
-					"name": "item�,"
+					"type": "number",
+					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Moves the items on list from the corpse to a container.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Moves the items on list from the corpse to a container."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "corpse"
+				},
+				{
+					"type": "string",
+					"name": "dest"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Moves the items on list from the corpse to a container."
 		}
 	]
 }

@@ -1,0 +1,19 @@
+{
+	"name": "table.spell",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "optional bool",
+					"name": "inpairs"
+				}
+			],
+			"description": "Filter all elements of the table into valid spells informations."
+		}
+	]
+}

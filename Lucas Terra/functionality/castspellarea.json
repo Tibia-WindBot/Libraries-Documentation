@@ -5,7 +5,7 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{
@@ -13,8 +13,8 @@
 					"name": "amount"
 				},
 				{
-					"type": "boolean",
-					"name": "ignore"
+					"type": "bool",
+					"name": "ignoreplayers"
 				},
 				{
 					"type": "string",

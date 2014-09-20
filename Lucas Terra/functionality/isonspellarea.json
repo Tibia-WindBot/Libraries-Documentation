@@ -5,29 +5,79 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "creature",
 					"name": "cre"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "direction"
 				},
 				{
-					"type": "various",
+					"type": "optional number",
 					"name": "x"
 				},
 				{
-					"type": "various",
+					"type": "optional number",
 					"name": "y"
 				}
 			],
-			"description": "Returns true if the creature is inside spell area, false otherwise.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns true if the creature is inside spell area, false otherwise."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "creature",
+					"name": "cre"
+				},
+				{
+					"type": "spell",
+					"name": "spellobj"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				},
+				{
+					"type": "optional number",
+					"name": "x"
+				},
+				{
+					"type": "optional number",
+					"name": "y"
+				}
+			],
+			"description": "Returns true if the creature is inside spell area, false otherwise."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "creature",
+					"name": "cre"
+				},
+				{
+					"type": "string",
+					"name": "spellarea"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				},
+				{
+					"type": "optional number",
+					"name": "x"
+				},
+				{
+					"type": "optional number",
+					"name": "y"
+				}
+			],
+			"description": "Returns true if the creature is inside spell area, false otherwise."
 		}
 	]
 }

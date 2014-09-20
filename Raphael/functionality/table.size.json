@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "self"
+					"name": "tbl"
 				}
 			],
 			"description": "Returns the amount of elements present in the table. This may be needed for tables with non-numeric indexes, where the length operator (#) might not work properly."

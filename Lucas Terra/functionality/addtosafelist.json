@@ -2,7 +2,7 @@
 	"name": "addtosafelist",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",

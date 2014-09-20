@@ -1,0 +1,31 @@
+{
+	"name": "table.insertsorted",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "various",
+					"name": "value"
+				},
+				{
+					"type": "various",
+					"name": "argument"
+				},
+				{
+					"type": "string",
+					"name": "order"
+				},
+				{
+					"type": "bool",
+					"name": "deleteduplicated"
+				}
+			],
+			"description": "Inserts a value inside the table, sorted with the current elements."
+		}
+	]
+}

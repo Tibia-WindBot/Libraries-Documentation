@@ -5,8 +5,22 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
+				},
+				{
+					"type": "optional creature",
+					"name": "cre"
+				}
+			],
+			"description": "Returns true if you met the requirements to cast spell, false otherwise."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "spell",
+					"name": "spellobj"
 				},
 				{
 					"type": "optional creature",

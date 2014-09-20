@@ -2,16 +2,24 @@
 	"name": "iscontainerfull",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
-					"name": "bp"
+					"type": "string",
+					"name": "bpname"
 				}
 			],
-			"description": "Returns true if the container given is full, false otherwise.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns true if the container given is full, false otherwise."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "bpindex"
+				}
+			],
+			"description": "Returns true if the container given is full, false otherwise."
 		}
 	]
 }

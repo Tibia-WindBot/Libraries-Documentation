@@ -2,14 +2,28 @@
 	"name": "collectitems",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",
 					"name": "bpname"
 				},
 				{
-					"type": "various",
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Collect all items around your character found in the list."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "bpname"
+				},
+				{
+					"type": "number",
 					"name": "item¹, item², item*, ..."
 				}
 			],

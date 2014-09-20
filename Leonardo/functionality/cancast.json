@@ -1,0 +1,33 @@
+﻿{
+	"name": "cancast",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "spell"
+				},
+				{
+					"type": "optional creature",
+					"name": "target"
+				}
+			],
+			"description": "Returns true if can cast the spell, false otherwise. Checks if the requirements are met and the cooldown for the spell is 0. If <i>target</i> is given then it'll check if it's possible to cast the spell on the creature."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "spell",
+					"name": "spellobj"
+				},
+				{
+					"type": "optional creature",
+					"name": "target"
+				}
+			],
+			"description": "Returns true if can cast the spell, false otherwise. Checks if the requirements are met and the cooldown for the spell is 0. If <i>target</i> is given then it'll check if it's possible to cast the spell on the creature."
+		}
+	]
+}

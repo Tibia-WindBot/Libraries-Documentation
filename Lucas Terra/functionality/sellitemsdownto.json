@@ -2,24 +2,22 @@
 	"name": "sellitemsdownto",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "item"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "amount"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "current"
 				}
 			],
-			"description": "Sell items necessary let the amount on the given backpack.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Sell items necessary let the amount on the given backpack."
 		}
 	]
 }

@@ -1,53 +1,10 @@
-{
+﻿{
 	"name": "trapped",
 	"invocations": [
 		{
-			"rettype": "integer",
-			"args": [
-				{
-					"type": "various",
-					"name": "table"
-				},
-				{
-					"type": "various",
-					"name": "cap"
-				},
-				{
-					"type": "various",
-					"name": "category"
-				},
-				{
-					"type": "various",
-					"name": "category"
-				},
-				{
-					"type": "various",
-					"name": "category"
-				},
-				{
-					"type": "various",
-					"name": "container"
-				},
-				{
-					"type": "various",
-					"name": "list"
-				},
-				{
-					"type": "various",
-					"name": "dist"
-				},
-				{
-					"type": "various",
-					"name": "floor"
-				},
-				{
-					"type": "various",
-					"name": "name�,"
-				}
-			],
-			"description": "Returns true of you are trapped and can't walk adjacent.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"rettype": "boolean",
+			"args": [],
+			"description": "Returns true of you are trapped and can't walk adjacent."
 		}
 	]
 }

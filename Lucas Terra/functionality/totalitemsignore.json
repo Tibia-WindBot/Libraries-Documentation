@@ -1,21 +1,19 @@
-{
+﻿{
 	"name": "totalitemsignore",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "location"
 				},
 				{
-					"type": "various",
-					"name": "item�,"
+					"type": "number",
+					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Returns the total items found exept those located at container given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the total items found exept those located at container given."
 		}
 	]
 }

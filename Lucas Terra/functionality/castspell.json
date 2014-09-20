@@ -5,7 +5,7 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{

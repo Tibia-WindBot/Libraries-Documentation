@@ -1,0 +1,10 @@
+{
+	"name": "closemarket",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Closes the market if it's opened."
+		}
+	]
+}

@@ -2,22 +2,18 @@
 	"name": "caststrike",
 	"invocations": [
 		{
-			"rettype": "true",
+			"rettype": "boolean",
 			"args": [
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "waitdelay1"
 				},
 				{
-					"type": "number",
+					"type": "optional number",
 					"name": "witdelay2"
-				},
-				{
-					"type": "number",
-					"name": "mindmg"
 				}
 			],
-			"description": "Cast the best strong strike spell on the target."
+			"description": "Cast the best strike spell on the target."
 		}
 	]
 }

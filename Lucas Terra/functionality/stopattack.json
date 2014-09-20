@@ -2,11 +2,9 @@
 	"name": "stopattack",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [],
-			"description": "Simulates the pressing of ESC button, stopping the current action.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Simulates the pressing of ESC button, stopping the current action."
 		}
 	]
 }

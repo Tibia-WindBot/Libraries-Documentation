@@ -1,0 +1,19 @@
+{
+	"name": "loadstringf",
+	"invocations": [
+		{
+			"rettype": "function",
+			"args": [
+				{
+					"type": "string",
+					"name": "pattern"
+				},
+				{
+					"type": "various",
+					"name": "arguments..."
+				}
+				],
+			"description": "Same as loadstring function but can receice string format patterns."
+		}
+	]
+}

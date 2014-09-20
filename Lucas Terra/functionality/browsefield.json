@@ -2,7 +2,7 @@
 	"name": "browsefield",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "number",

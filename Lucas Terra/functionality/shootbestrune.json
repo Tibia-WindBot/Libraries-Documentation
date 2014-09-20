@@ -5,25 +5,23 @@
 			"rettype": "true",
 			"args": [
 				{
-					"type": "various",
-					"name": "a"
+					"type": "number",
+					"name": "delay1"
 				},
 				{
-					"type": "various",
-					"name": "b"
+					"type": "number",
+					"name": "delay2"
 				},
 				{
-					"type": "various",
+					"type": "creature",
 					"name": "cre"
 				},
 				{
-					"type": "various",
-					"name": "disconsider"
+					"type": "bool",
+					"name": "disconsiderdmg"
 				}
 			],
-			"description": "Shoots the best rune against the creature given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Shoots the best rune against the creature given. If <i>disconsiderdmg</i> is set to true then it'll pick the rune by the weakness element for the creature, otherwise it'll pick the best rune based on the character level, spell conditions and creature weakness."
 		}
 	]
 }

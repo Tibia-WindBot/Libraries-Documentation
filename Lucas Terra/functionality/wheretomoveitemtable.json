@@ -5,21 +5,19 @@
 			"rettype": "table",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "x"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "y"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "z"
 				}
 			],
-			"description": "Creates possible destinations to move the item on the coordinates given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Creates possible destinations to move the item on the coordinates given."
 		}
 	]
 }

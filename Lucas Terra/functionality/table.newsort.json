@@ -1,0 +1,23 @@
+{
+	"name": "table.newsort",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "various",
+					"name": "argument"
+				},
+				{
+					"type": "various",
+					"name": "order"
+				}
+			],
+			"description": "Sorts the table elements between ascendant or descendant."
+		}
+	]
+}

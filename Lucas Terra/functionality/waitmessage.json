@@ -2,32 +2,30 @@
 	"name": "waitmessage",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "sender"
 				},
 				{
-					"type": "various",
-					"name": "msg"
+					"type": "string",
+					"name": "message"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "maxtime"
 				},
 				{
-					"type": "various",
-					"name": "match"
+					"type": "optional bool",
+					"name": "matchwords"
 				},
 				{
-					"type": "various",
-					"name": "channel"
+					"type": "optional string",
+					"name": "channelname"
 				}
 			],
-			"description": "Delay the script until the message is received.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Delay the script until the message given is received."
 		}
 	]
 }

@@ -1,0 +1,23 @@
+{
+	"name": "checklocation",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "distance"
+				},
+				{
+					"type": "optional string",
+					"name": "label"
+				},
+				{
+					"type": "optional string",
+					"name": "section"
+				}
+				],
+			"description": "Checks if you are inside the waypoint distance, if not it'll go the label and section given, if label and section are not given it'll return wheter it's or not inside the distance range."
+		}
+	]
+}

@@ -5,17 +5,15 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "direction"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "updown"
 				}
 			],
-			"description": "Levitate using exani hur to the floor given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Levitate using exani hur 'up/down' to the floor given."
 		}
 	]
 }

@@ -5,7 +5,7 @@
 			"rettype": "creature",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{
@@ -17,7 +17,7 @@
 					"name": "iteratetype"
 				}
 			],
-			"description": "Returns the creature object found on the spell range."
+			"description": "Returns the creature(s) object(s) found in the spell range in the direction given, as <i>iteratetype<i> you can set a combination of characters like 'pmfs' to filter the creatures you want to search for."
 		}
 	]
 }

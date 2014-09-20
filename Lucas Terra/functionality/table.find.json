@@ -1,0 +1,23 @@
+﻿{
+	"name": "table.find",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "various",
+					"name": "value"
+				},
+				{
+					"type": "various",
+					"name": "argument"
+				}
+			],
+			"description": "Searches for a value in the given table."
+		}
+	]
+}

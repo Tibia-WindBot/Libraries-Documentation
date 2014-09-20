@@ -2,16 +2,14 @@
 	"name": "sethealing",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "type"
+					"type": "bool",
+					"name": "optional"
 				}
 			],
-			"description": "Toggle the healing engine.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Toggle the healing engine."
 		}
 	]
 }

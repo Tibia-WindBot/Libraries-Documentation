@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "self"
+					"name": "tbl"
 				}
 			],
 			"description": "Makes a deep, by value, copy of a table. This solves referencing problems. This may be slow for big, complex tables; use carefully."

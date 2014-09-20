@@ -5,21 +5,19 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "optional number",
 					"name": "range"
 				},
 				{
-					"type": "various",
-					"name": "body"
+					"type": "optional bool",
+					"name": "movebody"
 				},
 				{
-					"type": "various",
-					"name": "fresh"
+					"type": "optional bool",
+					"name": "waitfresh"
 				}
 			],
-			"description": "Uses obsidian knife on the bodies found in the range.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Uses obsidian knife on the bodies found in the range."
 		}
 	]
 }

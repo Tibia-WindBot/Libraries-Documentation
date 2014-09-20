@@ -1,25 +1,23 @@
-{
+﻿{
 	"name": "maroundfloorignore",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "range"
 				},
 				{
-					"type": "various",
-					"name": "floor"
+					"type": "number",
+					"name": "floordiff"
 				},
 				{
-					"type": "various",
-					"name": "creature�,"
+					"type": "string",
+					"name": "monster¹, monster², monster*, ..."
 				}
 			],
-			"description": "Returns the amount of monsters on the floor difference and range except those found list.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of monsters on the floor difference and range except those found list."
 		}
 	]
 }

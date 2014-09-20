@@ -5,11 +5,21 @@
 			"rettype": "integer",
 			"args": [
 				{
-					"type": "various",
-					"name": "item"
+					"type": "number",
+					"name": "distance"
 				}
 			],
 			"description": "Returns the amount of fishable spots found in range."
+		},
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "number",
+					"name": "waterspotid"
+				}
+			],
+			"description": "Returns the amount of fishable spots with the same ID as given."
 		}
 	]
 }

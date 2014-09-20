@@ -4,9 +4,7 @@
 		{
 			"rettype": "integer",
 			"args": [],
-			"description": "Returns the global hungry.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the global hungry time in milliseconds."
 		}
 	]
 }

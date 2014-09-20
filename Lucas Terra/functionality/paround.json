@@ -1,0 +1,19 @@
+{
+	"name": "paround",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "distance"
+				},
+				{
+					"type": "optional string",
+					"name": "player¹, player², player*, ..."
+				}
+			],
+			"description": "Returns the amount of players found in the range and list."
+		}
+	]
+}

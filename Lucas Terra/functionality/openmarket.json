@@ -1,0 +1,10 @@
+{
+	"name": "openmarket",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [],
+			"description": "Opens the market and return wheter it was opened or not."
+		}
+	]
+}

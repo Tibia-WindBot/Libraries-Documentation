@@ -5,21 +5,19 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "time1"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "time2"
 				},
 				{
-					"type": "various",
+					"type": "optional number",
 					"name": "delay"
 				}
 			],
-			"description": "Returns true if the time given is between second time and delay.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns true if the time given is between second time and delay."
 		}
 	]
 }

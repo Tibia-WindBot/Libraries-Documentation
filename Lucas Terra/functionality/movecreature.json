@@ -2,20 +2,46 @@
 	"name": "movecreature",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "creature",
 					"name": "cre"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "direction"
 				}
 			],
-			"description": "Moves a creature to the direction given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Moves a creature to the direction given."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "crename"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				}
+			],
+			"description": "Moves a creature to the direction given."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "creid"
+				},
+				{
+					"type": "string",
+					"name": "direction"
+				}
+			],
+			"description": "Moves a creature to the direction given."
 		}
 	]
 }

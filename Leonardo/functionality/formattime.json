@@ -1,0 +1,19 @@
+{
+	"name": "formattime",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "seconds"
+				},
+				{
+					"type": "optional string",
+					"name": "pattern"
+				}
+			],
+			"description": "Formats the seconds given into a date/hour string."
+		}
+	]
+}

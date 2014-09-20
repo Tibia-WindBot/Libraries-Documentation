@@ -1,25 +1,23 @@
-{
+﻿{
 	"name": "paroundfloor",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "range"
 				},
 				{
-					"type": "various",
-					"name": "floor"
+					"type": "number",
+					"name": "floordiff"
 				},
 				{
-					"type": "various",
-					"name": "creature�,"
+					"type": "optional string",
+					"name": "player¹, player², player*, ..."
 				}
 			],
-			"description": "Returns the amount of players on the floor difference found in the range and list.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of players on the floor difference found in the range and list."
 		}
 	]
 }

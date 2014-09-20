@@ -1,0 +1,23 @@
+{
+	"name": "unequipitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "slot"
+				},
+				{
+					"type": "optional string",
+					"name": "cont"
+				},
+				{
+					"type": "optional number",
+					"name": "amount"
+				}
+			],
+			"description": "Unequips the item in the slot given and moves to the container <i>cont</i> (defaults to any backpack). Optionally you can set the amount to be unequipped (defaults to slot total)."
+		}
+	]
+}

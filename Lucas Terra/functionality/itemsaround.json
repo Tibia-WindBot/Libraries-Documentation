@@ -1,21 +1,33 @@
-{
+﻿{
 	"name": "itemsaround",
 	"invocations": [
 		{
 			"rettype": "integer",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "dist"
 				},
 				{
-					"type": "various",
-					"name": "item�,"
+					"type": "number",
+					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Returns the amount of items in the distance range found in list.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of items in the distance range found in list."
+		},
+		{
+			"rettype": "integer",
+			"args": [
+				{
+					"type": "number",
+					"name": "dist"
+				},
+				{
+					"type": "string",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Returns the amount of items in the distance range found in list."
 		}
 	]
 }

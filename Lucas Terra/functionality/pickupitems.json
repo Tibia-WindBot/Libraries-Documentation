@@ -1,29 +1,49 @@
-{
+﻿{
 	"name": "pickupitems",
 	"invocations": [
 		{
 			"rettype": "void",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "direction"
 				},
 				{
-					"type": "various",
+					"type": "string",
 					"name": "location"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "amount"
 				},
 				{
-					"type": "various",
-					"name": "item�,"
+					"type": "string",
+					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Picks the items in the list found in the direction given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Picks the items in the list found in the direction given."
+		},
+		{
+			"rettype": "void",
+			"args": [
+				{
+					"type": "string",
+					"name": "direction"
+				},
+				{
+					"type": "string",
+					"name": "location"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "number",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Picks the items in the list found in the direction given."
 		}
 	]
 }

@@ -1,0 +1,19 @@
+{
+	"name": "sprintf",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "pattern"
+				},
+				{
+					"type": "various",
+					"name": "arguments..."
+				}
+				],
+			"description": "Prepare a string format to be printed by the print function (alias for string.format)."
+		}
+	]
+}

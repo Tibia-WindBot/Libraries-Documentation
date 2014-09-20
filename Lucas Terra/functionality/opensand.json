@@ -5,21 +5,19 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "x"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "y"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "z"
 				}
 			],
-			"description": "Uses shovel on the given coordinates, until it's opened.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Uses shovel on the given coordinates, until it's opened."
 		}
 	]
 }

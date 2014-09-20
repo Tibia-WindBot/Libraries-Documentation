@@ -1,0 +1,15 @@
+﻿{
+	"name": "isinsidearea",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "table",
+					"name": "coordinates¹, coordinates², coordinates*, ..."
+				}
+			],
+			"description": "Returns true if you are inside the area coordinates limit, false otherwise."
+		}
+	]
+}

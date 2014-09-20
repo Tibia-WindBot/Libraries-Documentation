@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "self"
+					"name": "tbl"
 				}
 			],
 			"description": "Returns the first item of the given table."

@@ -1,0 +1,19 @@
+{
+	"name": "maround",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "distance"
+				},
+				{
+					"type": "optional string",
+					"name": "monster¹, monster², monster*, ..."
+				}
+			],
+			"description": "Returns the amount of monsters found in the range and list."
+		}
+	]
+}

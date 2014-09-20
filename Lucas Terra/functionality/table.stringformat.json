@@ -1,0 +1,23 @@
+{
+	"name": "table.stringformat",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "optional string",
+					"name": "tblname"
+				},
+				{
+					"type": "optional string",
+					"name": "separator"
+				}
+			],
+			"description": "Returns a string formatted as the table given."
+		}
+	]
+}

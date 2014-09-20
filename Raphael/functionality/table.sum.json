@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "self"
+					"name": "tbl"
 				}
 			],
 			"description": "Returns the sum of all items in the given table."

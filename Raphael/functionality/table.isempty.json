@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "self"
+					"name": "tbl"
 				}
 			],
 			"description": "Checks wheter given table is empty, that is, has no elements. This may be needed for tables with non-numeric indexes, where the length operator (#) might not work properly. NOTE: May return incorrect values if the given table contains nil values."

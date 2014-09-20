@@ -1,4 +1,4 @@
-{
+﻿{
 	"name": "calltable",
 	"invocations": [
 		{
@@ -9,7 +9,7 @@
 					"name": "tbl"
 				},				{
 					"type": "optional various",
-					"name": "arg¹, arg², ..., arg*"
+					"name": "arg¹, arg², arg*, ..."
 				}
 			],
 			"description": "Calls the first item in the table <i>tbl</i> passing the other items as arguments. Optionally, extra arguments can be included by passing them after the table. These are passed as arguments before the items of the array."

@@ -1,0 +1,15 @@
+{
+	"name": "string.lootmsg",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "string",
+					"name": "str"
+				}
+			],
+			"description": "Returns the parsed information about the attack message given."
+		}
+	]
+}

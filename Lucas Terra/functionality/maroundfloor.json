@@ -2,16 +2,22 @@
 	"name": "maroundfloor",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
-					"name": "item"
+					"type": "number",
+					"name": "distance"
+				},
+				{
+					"type": "number",
+					"name": "floordiff"
+				},
+				{
+					"type": "optional string",
+					"name": "monster¹, monster², monster*, ..."
 				}
 			],
-			"description": "Returns the item of the ring in use.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of monsters on the floor difference found in the range and list."
 		}
 	]
 }

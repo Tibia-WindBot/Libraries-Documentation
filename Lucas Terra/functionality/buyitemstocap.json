@@ -2,7 +2,7 @@
 	"name": "buyitemstocap",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",

@@ -1,0 +1,19 @@
+{
+	"name": "formatnumber",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "num"
+				},
+				{
+					"type": "optional string",
+					"name": "separator"
+				}
+			],
+			"description": "Formats the expression given as a number to group digits. Optionally you can set a separator for the digits, defaults to \",\" symbol."
+		}
+	]
+}

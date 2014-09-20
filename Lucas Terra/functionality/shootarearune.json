@@ -1,29 +1,27 @@
-{
+﻿{
 	"name": "shootarearune",
 	"invocations": [
 		{
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
-					"name": "id"
+					"type": "number",
+					"name": "runeid"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "amount"
 				},
 				{
-					"type": "various",
+					"type": "optional bool",
 					"name": "ignoreplayers"
 				},
 				{
-					"type": "various",
-					"name": "name�,"
+					"type": "optional string",
+					"name": "name¹, name², name*, ..."
 				}
 			],
-			"description": "Shoots an area rune where it can hit more creatures.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Shoots an area rune where it can hit more creatures."
 		}
 	]
 }

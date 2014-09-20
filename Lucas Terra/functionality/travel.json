@@ -2,20 +2,18 @@
 	"name": "travel",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "destin"
+					"type": "string",
+					"name": "destination"
 				},
 				{
-					"type": "various",
+					"type": "optional bool",
 					"name": "havering"
 				}
 			],
-			"description": "Travel to the destination.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Travel to the destination and certificates you've travelled to the correct place."
 		}
 	]
 }

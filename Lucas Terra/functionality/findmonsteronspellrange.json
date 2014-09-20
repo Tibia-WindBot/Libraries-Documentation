@@ -5,7 +5,7 @@
 			"rettype": "creature",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{
@@ -13,7 +13,7 @@
 					"name": "direction"
 				}
 			],
-			"description": "Returns the monster object found on the spell range."
+			"description": "Returns the monster object found on the spell range in the direction given."
 		}
 	]
 }

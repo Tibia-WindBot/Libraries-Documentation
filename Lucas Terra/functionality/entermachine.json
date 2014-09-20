@@ -1,0 +1,19 @@
+{
+	"name": "entermachine",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "stoneid"
+				},
+				{
+					"type": "optional number",
+					"name": "maxtries"
+				}
+			],
+			"description": "Enters elemental spheres\' machine by using 20 enchanted stones on the machine first, and then activating it. Optionally you can set a maximum number of tries, defaults to 30."
+		}
+	]
+}

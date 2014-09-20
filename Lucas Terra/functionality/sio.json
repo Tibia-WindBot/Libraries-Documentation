@@ -1,21 +1,19 @@
-{
+﻿{
 	"name": "sio",
 	"invocations": [
 		{
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "hppc"
 				},
 				{
-					"type": "various",
-					"name": "name�,"
+					"type": "string",
+					"name": "name¹, name², name*, ..."
 				}
 			],
-			"description": "Uses sio to heal the players found on the list.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Uses sio to heal the players found on the list."
 		}
 	]
 }

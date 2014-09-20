@@ -5,8 +5,12 @@
 			"rettype": "table",
 			"args": [
 				{
+					"type": "table",
+					"name": "tbl1"
+				},
+				{
 					"type": "optional table",
-					"name": "table"
+					"name": "tbl2"
 				},
 				{
 					"type": "optional boolean",

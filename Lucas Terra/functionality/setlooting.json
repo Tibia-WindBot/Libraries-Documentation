@@ -2,16 +2,14 @@
 	"name": "setlooting",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
-					"name": "type"
+					"type": "bool",
+					"name": "option"
 				}
 			],
-			"description": "Toggle the looting engine.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Toggle the looting engine."
 		}
 	]
 }

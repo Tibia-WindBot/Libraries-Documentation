@@ -5,7 +5,21 @@
 			"rettype": "string, integer",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
+					"name": "item"
+				},
+				{
+					"type": "string",
+					"name": "cont"
+				}
+			],
+			"description": "Searches for the slot and id of the item or container which hold it."
+		},
+		{
+			"rettype": "string, integer",
+			"args": [
+				{
+					"type": "number",
 					"name": "item"
 				},
 				{

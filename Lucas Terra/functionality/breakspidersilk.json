@@ -18,7 +18,7 @@
 				},
 				{
 					"type": "optional table",
-					"name": "walls"
+					"name": "wallsids"
 				}
 			],
 			"description": "Breaks any spider silk on the given coordinates."

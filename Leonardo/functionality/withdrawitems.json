@@ -1,4 +1,4 @@
-{
+﻿{
 	"name": "withdrawitems",
 	"invocations": [
 		{
@@ -14,7 +14,7 @@
 				},
 				{
 					"type": "string",
-					"name": "item¹, item², ..., item*",
+					"name": "item¹, item², item*, ...",
 				},
 				{
 					"type": "optional function",
@@ -32,7 +32,7 @@
 				},
 				{
 					"type": "table",
-					"name": "item¹, item², ..., item*",
+					"name": "item¹, item², item*, ...",
 				},
 				{
 					"type": "optional function",

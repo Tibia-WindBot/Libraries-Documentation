@@ -1,25 +1,59 @@
-{
+﻿{
 	"name": "paroundspell",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "spell"
 				},
 				{
-					"type": "various",
+					"type": "optional string",
 					"name": "direction"
 				},
 				{
-					"type": "various",
-					"name": "name�,"
+					"type": "optional string",
+					"name": "player¹, player², player*, ..."
 				}
 			],
-			"description": "Returns the amount of players found in the spell range.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of players found in the spell range."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "spell",
+					"name": "spellobj"
+				},
+				{
+					"type": "optional string",
+					"name": "direction"
+				},
+				{
+					"type": "optional string",
+					"name": "player¹, player², player*, ..."
+				}
+			],
+			"description": "Returns the amount of players found in the spell range."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "spellarea"
+				},
+				{
+					"type": "optional string",
+					"name": "direction"
+				},
+				{
+					"type": "optional string",
+					"name": "player¹, player², player*, ..."
+				}
+			],
+			"description": "Returns the amount of players found in the spell range."
 		}
 	]
 }

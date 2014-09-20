@@ -1,0 +1,19 @@
+{
+	"name": "table.lower",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				},
+				{
+					"type": "optional bool",
+					"name": "inpairs"
+				}
+			],
+			"description": "Converts all string elements of the table to lowercase."
+		}
+	]
+}

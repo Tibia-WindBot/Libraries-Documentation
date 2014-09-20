@@ -2,7 +2,7 @@
 	"name": "collechiddentitems",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": "boolean",
 			"args": [
 				{
 					"type": "number",
@@ -13,7 +13,7 @@
 					"name": "item¹, item², item*, ..."
 				}
 			],
-			"description": "Collect all items around your character found in the list on the range."
+			"description": "Collect all hidden items around your character found in the list and within the range."
 		}
 	]
 }

@@ -17,7 +17,7 @@
 					"name": "z"
 				}
 			],
-			"description": "Cuts high grasses on the given coordinates."
+			"description": "Breaks dworc wall on the given coordinates."
 		}
 	]
 }

@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "number",
-					"name": "self"
+					"name": "num"
 				},
 				{
 					"type": "optional number",

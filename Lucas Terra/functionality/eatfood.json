@@ -14,6 +14,20 @@
 				}
 			],
 			"description": "Eats food."
+		},
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "location"
+				},
+				{
+					"type": "number",
+					"name": "item¹, item², item*, ..."
+				}
+			],
+			"description": "Eats food."
 		}
 	]
 }

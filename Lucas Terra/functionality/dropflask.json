@@ -1,0 +1,10 @@
+{
+	"name": "dropflask",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Drops all visible empty flasks on the ground."
+		}
+	]
+}

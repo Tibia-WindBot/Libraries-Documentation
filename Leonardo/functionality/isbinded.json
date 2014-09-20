@@ -1,4 +1,4 @@
-{
+﻿{
 	"name": "isbinded",
 	"invocations": [
 		{
@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "hotkey¹ hotkey², ..., hotkey*"
+					"name": "hotkey¹ hotkey², hotkey*, ..."
 				}
 			],
 			"description": "Returns true if you have the current hotkeys binded on functions keyboard on any bind type, false otherwise."
@@ -16,7 +16,7 @@
 			"args": [
 				{
 					"type": "table",
-					"name": "hotkey¹ hotkey², ..., hotkey*"
+					"name": "hotkey¹ hotkey², hotkey*, ..."
 				}
 			],
 			"description": "Returns true if you have the current hotkeys binded on functions keyboard on the bind type given on each entry, false otherwise."

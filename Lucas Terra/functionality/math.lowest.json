@@ -1,0 +1,19 @@
+{
+	"name": "math.lowest",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "self"
+				},
+				{
+					"type": "number",
+					"name": "num"
+				}
+			],
+			"description": "Returns the minimum value between the given numbers."
+		}
+	]
+}

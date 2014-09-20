@@ -5,25 +5,23 @@
 			"rettype": "boolean",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "x"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "y"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "z"
 				},
 				{
-					"type": "various",
-					"name": "sewers"
+					"type": "optional table",
+					"name": "sewersid"
 				}
 			],
-			"description": "Uses sewer gate on the given coordinates, until you have entered.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Uses sewer gate on the given coordinates, until you have entered."
 		}
 	]
 }

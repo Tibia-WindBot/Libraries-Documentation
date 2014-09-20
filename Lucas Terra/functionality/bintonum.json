@@ -2,7 +2,7 @@
 	"name": "bintonum",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
 					"type": "string",

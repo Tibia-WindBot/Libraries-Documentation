@@ -1,4 +1,4 @@
-{
+﻿{
 	"name": "npctalk",
 	"invocations": [
 		{
@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "msg¹, msg², ..., msg*"
+					"name": "msg¹, msg², msg*, ..."
 				},
 				{
 					"type": "optional boolean",

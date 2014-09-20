@@ -2,16 +2,14 @@
 	"name": "searchcontainerincontainer",
 	"invocations": [
 		{
-			"rettype": "integer",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "string",
 					"name": "bp"
 				}
 			],
-			"description": "Searches for another container ID inside the container given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Searches for another container ID inside the container given."
 		}
 	]
 }

@@ -1,0 +1,15 @@
+{
+	"name": "tosec",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "time"
+				}
+			],
+			"description": "Converts a time string into seconds."
+		}
+	]
+}

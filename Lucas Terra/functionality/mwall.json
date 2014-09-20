@@ -2,20 +2,18 @@
 	"name": "mwall",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
-					"type": "various",
+					"type": "creature",
 					"name": "target"
 				},
 				{
-					"type": "various",
+					"type": "number",
 					"name": "dist"
 				}
 			],
-			"description": "Shoots a magic wall in the front of the target given.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Shoots a magic wall in <i>dist</i> sqm's ahead the target given."
 		}
 	]
 }

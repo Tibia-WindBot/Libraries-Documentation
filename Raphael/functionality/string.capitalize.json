@@ -6,7 +6,7 @@
 			"args": [
 				{
 					"type": "string",
-					"name": "self"
+					"name": "str"
 				}
 			],
 			"description": "Capitalizes the first character in a given string."

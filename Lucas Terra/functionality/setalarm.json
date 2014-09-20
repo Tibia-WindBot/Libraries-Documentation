@@ -2,28 +2,26 @@
 	"name": "setalarm",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "various",
-					"name": "type"
+					"name": "alarmtype"
 				},
 				{
-					"type": "various",
+					"type": "bool",
 					"name": "playsound"
 				},
 				{
-					"type": "various",
+					"type": "bool",
 					"name": "pausebot"
 				},
 				{
-					"type": "various",
+					"type": "bool",
 					"name": "logout"
 				}
 			],
-			"description": "Set the alarm engine options.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Set the alarm engine options."
 		}
 	]
 }

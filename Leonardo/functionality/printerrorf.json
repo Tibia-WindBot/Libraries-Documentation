@@ -1,0 +1,19 @@
+{
+	"name": "printerrorf",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "pattern"
+				},
+				{
+					"type": "various",
+					"name": "arguments..."
+				}
+				],
+			"description": "Same as printerror but can receive string format patterns."
+		}
+	]
+}

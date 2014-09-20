@@ -3,7 +3,12 @@
 	"invocations": [
 		{
 			"rettype": null,
-			"args": [],
+			"args": [
+				{
+					"type": "table",
+					"name": "tbl"
+				}
+			],
 			"description": "Normalizes the given table, removing nil values and rearranging the indexes."
 		}
 	]

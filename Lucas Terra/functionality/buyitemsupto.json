@@ -2,7 +2,7 @@
 	"name": "buyitemsupto",
 	"invocations": [
 		{
-			"rettype": "void",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",

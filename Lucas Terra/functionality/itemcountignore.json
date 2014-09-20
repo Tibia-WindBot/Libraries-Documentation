@@ -2,20 +2,18 @@
 	"name": "itemcountignore",
 	"invocations": [
 		{
-			"rettype": "string",
+			"rettype": "number",
 			"args": [
 				{
-					"type": "various",
+					"type": "number",
 					"name": "item"
 				},
 				{
-					"type": "various",
-					"name": "bp"
+					"type": "number",
+					"name": "bpindex"
 				}
 			],
-			"description": "Returns the amount of items you have without counting on the ignored backpack.",
-			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
-			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+			"description": "Returns the amount of items you have without counting on the ignored backpack."
 		}
 	]
 }
