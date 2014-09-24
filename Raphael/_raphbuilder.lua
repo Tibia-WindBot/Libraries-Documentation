@@ -43,7 +43,7 @@ local JSON_PAT = [[{
 local ARGS_PAT = [[				{
 					"type": %q,
 					"name": %q
-				},]]
+				}]]
 
 -- fucking code
 local file, str = io.open("C:\\Program Files (x86)\\WindBot\\libs\\Raphael.lua", 'r')
@@ -94,6 +94,11 @@ for doc, func in str:sub(200):gmatch('%-%-%[%[(\n %*.-\n)%-%-%]%]\nfunction (.-)
 
 		for i = 1, #pars do
 			local p = pars[i]
+			
+			if i > 1 then
+				tempp = tempp .. ",\n"
+			end
+			
 			tempp = tempp .. sf(ARGS_PAT, (p.opt and "optional " or '') .. p.ret, p.name)
 		end
 
